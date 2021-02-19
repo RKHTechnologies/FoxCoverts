@@ -28,7 +28,7 @@ interface IProps {
 const WhosWho: FC<IProps> = ({ beavers, cubs, scouts, explorers}: IProps) => {
   return (
     <Container>
-      {beavers ? (  
+      {/* {beavers ? (  
         <>
           <Profile image='louise' name="Louise Dowell" nickname="King Louie" title="Beaver Leader" accent="Blue" />
           <Profile image='andy' name="Andy Francis" nickname="Sgt. Tibbs" title="Assistant Beaver Leader" accent="Blue" />
@@ -60,7 +60,7 @@ const WhosWho: FC<IProps> = ({ beavers, cubs, scouts, explorers}: IProps) => {
           <Profile image='jacob' name="Jacob Illston" nickname="..." title="Explorer Leader" accent="Red" />
           <Profile image='rhys' name="Rhys Howard" nickname="..." title="Explorer Leader" accent="Red" />
         </>
-      ) : null}
+      ) : null} */}
     </Container>
   );
 }

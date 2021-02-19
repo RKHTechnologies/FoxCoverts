@@ -68,7 +68,6 @@ export const PageBodyContainer = styled.div`
   bottom: 0;
   left: 0;
   right: 0;
-  /* overflow-y: scroll; */
 `;
 
 
