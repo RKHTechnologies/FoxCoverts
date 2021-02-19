@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/foxcoverts/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/foxcoverts/static/js/main.87e066f2.chunk.js",
+    "main.js.map": "/foxcoverts/static/js/main.87e066f2.chunk.js.map",
+    "runtime-main.js": "/foxcoverts/static/js/runtime-main.1dfa0840.js",
+    "runtime-main.js.map": "/foxcoverts/static/js/runtime-main.1dfa0840.js.map",
+    "static/js/2.902b02ed.chunk.js": "/foxcoverts/static/js/2.902b02ed.chunk.js",
+    "static/js/2.902b02ed.chunk.js.map": "/foxcoverts/static/js/2.902b02ed.chunk.js.map",
+    "static/js/3.b1232738.chunk.js": "/foxcoverts/static/js/3.b1232738.chunk.js",
+    "static/js/3.b1232738.chunk.js.map": "/foxcoverts/static/js/3.b1232738.chunk.js.map",
+    "index.html": "/foxcoverts/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/foxcoverts/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.902b02ed.chunk.js.LICENSE.txt": "/foxcoverts/static/js/2.902b02ed.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/foxcoverts/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1dfa0840.js",
+    "static/js/2.902b02ed.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.87e066f2.chunk.js"
+  ]
+}
