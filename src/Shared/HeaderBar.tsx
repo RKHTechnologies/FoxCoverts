@@ -183,27 +183,18 @@ const HeaderBar: React.FC<IProps> = ({ stickyHeader }: IProps) => {
         history.push(`${process.env.PUBLIC_URL}${link}`);
     }
 
-    const scoutShop = () => {
-        console.log("Going to scout shop");
-        setMenuOpen(false);
-        window.open("http://www.leicestershirescoutshop.com/", "_blank");
-    }
-
     return (
         <HeaderNav stickyHeader={stickyHeader}>
             <HeaderNavContainer>
-                <Logo src={logo} alt="2nd 60th Leicester Scouts" onClick={() => handleNav("")} />
+                <Logo src={logo} alt="Fox Coverts Scout Campsite" onClick={() => handleNav("")} />
                 <BurgerContainer menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><Burger menuOpen={menuOpen} /></BurgerContainer>
                 <NavItemsRightContainer menuOpen={menuOpen}>
                     <HeaderButton onClick={() => handleNav("")}>Home</HeaderButton>
                     {/* <HeaderButton onClick={() => handleNav("/about")}>About Us</HeaderButton> */}
-                    <HeaderButton onClick={() => handleNav("/beavers")}>Beavers</HeaderButton>
-                    <HeaderButton onClick={() => handleNav("/cubs")}>Cubs</HeaderButton>
-                    <HeaderButton onClick={() => handleNav("/scouts")}>Scouts</HeaderButton>
-                    <HeaderButton onClick={() => handleNav("/explorers")}>Explorers</HeaderButton>
-                    <HeaderButton onClick={() => handleNav("/ourCalendar")}>Our Calendar</HeaderButton>
-                    <HeaderButton onClick={() => handleNav("/documents")}>Useful Documents</HeaderButton>
-                    <HeaderButton onClick={scoutShop}>Scout Shop</HeaderButton>
+                    <HeaderButton onClick={() => handleNav("/bookings")}>Bookings</HeaderButton>
+                    <HeaderButton onClick={() => handleNav("/accommodation")}>Accommodation</HeaderButton>
+                    <HeaderButton onClick={() => handleNav("/activities")}>Activities</HeaderButton>
+                    <HeaderButton onClick={() => handleNav("/shop")}>Shop</HeaderButton>
                 </NavItemsRightContainer>
             </HeaderNavContainer>
         </HeaderNav>
