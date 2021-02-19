@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/foxcoverts/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/foxcoverts/static/js/main.061c50db.chunk.js",
-    "main.js.map": "/foxcoverts/static/js/main.061c50db.chunk.js.map",
+    "main.js": "/foxcoverts/static/js/main.d406bb4c.chunk.js",
+    "main.js.map": "/foxcoverts/static/js/main.d406bb4c.chunk.js.map",
     "runtime-main.js": "/foxcoverts/static/js/runtime-main.aacce503.js",
     "runtime-main.js.map": "/foxcoverts/static/js/runtime-main.aacce503.js.map",
-    "static/js/2.85976d59.chunk.js": "/foxcoverts/static/js/2.85976d59.chunk.js",
-    "static/js/2.85976d59.chunk.js.map": "/foxcoverts/static/js/2.85976d59.chunk.js.map",
+    "static/js/2.5fcf73e1.chunk.js": "/foxcoverts/static/js/2.5fcf73e1.chunk.js",
+    "static/js/2.5fcf73e1.chunk.js.map": "/foxcoverts/static/js/2.5fcf73e1.chunk.js.map",
     "index.html": "/foxcoverts/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/foxcoverts/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.85976d59.chunk.js.LICENSE.txt": "/foxcoverts/static/js/2.85976d59.chunk.js.LICENSE.txt",
+    "static/js/2.5fcf73e1.chunk.js.LICENSE.txt": "/foxcoverts/static/js/2.5fcf73e1.chunk.js.LICENSE.txt",
+    "static/media/logo-v.890d11dc.svg": "/foxcoverts/static/media/logo-v.890d11dc.svg",
     "static/media/logo.f726279a.svg": "/foxcoverts/static/media/logo.f726279a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.aacce503.js",
-    "static/js/2.85976d59.chunk.js",
+    "static/js/2.5fcf73e1.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.061c50db.chunk.js"
+    "static/js/main.d406bb4c.chunk.js"
   ]
 }
