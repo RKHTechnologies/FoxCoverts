@@ -1,5 +1,5 @@
 {
-  "homepage": "http://RKHTechnologies.github.io/foxcoverts",
+  "homepage": "http://RKHTechnologies.github.io/FoxCoverts",
   "name": "foxcoverts",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +19,7 @@
     "@types/react-router-dom": "^5.1.7",
     "@types/styled-components": "^5.1.7",
     "emailjs-com": "^2.6.4",
+    "infinite-react-carousel": "^1.2.11",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-responsive": "^8.2.0",
