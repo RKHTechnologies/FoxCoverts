@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/foxcoverts/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/foxcoverts/static/js/main.3c2131e8.chunk.js",
-    "main.js.map": "/foxcoverts/static/js/main.3c2131e8.chunk.js.map",
-    "runtime-main.js": "/foxcoverts/static/js/runtime-main.aacce503.js",
-    "runtime-main.js.map": "/foxcoverts/static/js/runtime-main.aacce503.js.map",
-    "static/js/2.a17b7766.chunk.js": "/foxcoverts/static/js/2.a17b7766.chunk.js",
-    "static/js/2.a17b7766.chunk.js.map": "/foxcoverts/static/js/2.a17b7766.chunk.js.map",
-    "index.html": "/foxcoverts/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/foxcoverts/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.a17b7766.chunk.js.LICENSE.txt": "/foxcoverts/static/js/2.a17b7766.chunk.js.LICENSE.txt",
-    "static/media/logo-v.890d11dc.svg": "/foxcoverts/static/media/logo-v.890d11dc.svg",
-    "static/media/logo.f726279a.svg": "/foxcoverts/static/media/logo.f726279a.svg"
+    "main.css": "/FoxCoverts/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/FoxCoverts/static/js/main.cf0a59ed.chunk.js",
+    "main.js.map": "/FoxCoverts/static/js/main.cf0a59ed.chunk.js.map",
+    "runtime-main.js": "/FoxCoverts/static/js/runtime-main.cdce79ec.js",
+    "runtime-main.js.map": "/FoxCoverts/static/js/runtime-main.cdce79ec.js.map",
+    "static/css/2.674c27c3.chunk.css": "/FoxCoverts/static/css/2.674c27c3.chunk.css",
+    "static/js/2.4a81791f.chunk.js": "/FoxCoverts/static/js/2.4a81791f.chunk.js",
+    "static/js/2.4a81791f.chunk.js.map": "/FoxCoverts/static/js/2.4a81791f.chunk.js.map",
+    "index.html": "/FoxCoverts/index.html",
+    "static/css/2.674c27c3.chunk.css.map": "/FoxCoverts/static/css/2.674c27c3.chunk.css.map",
+    "static/css/main.2ae47eeb.chunk.css.map": "/FoxCoverts/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.4a81791f.chunk.js.LICENSE.txt": "/FoxCoverts/static/js/2.4a81791f.chunk.js.LICENSE.txt",
+    "static/media/logo-v.890d11dc.svg": "/FoxCoverts/static/media/logo-v.890d11dc.svg",
+    "static/media/logo.f726279a.svg": "/FoxCoverts/static/media/logo.f726279a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aacce503.js",
-    "static/js/2.a17b7766.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.3c2131e8.chunk.js"
+    "static/js/runtime-main.cdce79ec.js",
+    "static/css/2.674c27c3.chunk.css",
+    "static/js/2.4a81791f.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.cf0a59ed.chunk.js"
   ]
 }
