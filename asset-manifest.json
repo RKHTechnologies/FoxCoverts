@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/FoxCoverts/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/FoxCoverts/static/js/main.cf0a59ed.chunk.js",
-    "main.js.map": "/FoxCoverts/static/js/main.cf0a59ed.chunk.js.map",
+    "main.css": "/FoxCoverts/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/FoxCoverts/static/js/main.5c5a2892.chunk.js",
+    "main.js.map": "/FoxCoverts/static/js/main.5c5a2892.chunk.js.map",
     "runtime-main.js": "/FoxCoverts/static/js/runtime-main.cdce79ec.js",
     "runtime-main.js.map": "/FoxCoverts/static/js/runtime-main.cdce79ec.js.map",
     "static/css/2.674c27c3.chunk.css": "/FoxCoverts/static/css/2.674c27c3.chunk.css",
@@ -10,16 +10,42 @@
     "static/js/2.4a81791f.chunk.js.map": "/FoxCoverts/static/js/2.4a81791f.chunk.js.map",
     "index.html": "/FoxCoverts/index.html",
     "static/css/2.674c27c3.chunk.css.map": "/FoxCoverts/static/css/2.674c27c3.chunk.css.map",
-    "static/css/main.2ae47eeb.chunk.css.map": "/FoxCoverts/static/css/main.2ae47eeb.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/FoxCoverts/static/css/main.6dea0f05.chunk.css.map",
     "static/js/2.4a81791f.chunk.js.LICENSE.txt": "/FoxCoverts/static/js/2.4a81791f.chunk.js.LICENSE.txt",
+    "static/media/FDL_Blue.2aff2c4f.png": "/FoxCoverts/static/media/FDL_Blue.2aff2c4f.png",
+    "static/media/FDL_Green.090a3be4.png": "/FoxCoverts/static/media/FDL_Green.090a3be4.png",
+    "static/media/FDL_Purple.24541ba2.png": "/FoxCoverts/static/media/FDL_Purple.24541ba2.png",
+    "static/media/FDL_Red.d2000547.png": "/FoxCoverts/static/media/FDL_Red.d2000547.png",
+    "static/media/RKHT_logo.3d014933.png": "/FoxCoverts/static/media/RKHT_logo.3d014933.png",
+    "static/media/bear.06e5a793.png": "/FoxCoverts/static/media/bear.06e5a793.png",
+    "static/media/beavers-and-leader.86ed15f6.jpg": "/FoxCoverts/static/media/beavers-and-leader.86ed15f6.jpg",
+    "static/media/beavers-and-leader.8c820548.jpg": "/FoxCoverts/static/media/beavers-and-leader.8c820548.jpg",
+    "static/media/beavers-characters.b60608fc.png": "/FoxCoverts/static/media/beavers-characters.b60608fc.png",
+    "static/media/beavers-singing.a91e0328.jpg": "/FoxCoverts/static/media/beavers-singing.a91e0328.jpg",
+    "static/media/cub-high-ropes.5425b034.jpg": "/FoxCoverts/static/media/cub-high-ropes.5425b034.jpg",
+    "static/media/cub-high-ropes.f37b9e25.jpg": "/FoxCoverts/static/media/cub-high-ropes.f37b9e25.jpg",
+    "static/media/cubs-group.2d9500cd.jpg": "/FoxCoverts/static/media/cubs-group.2d9500cd.jpg",
+    "static/media/cubs-group.6be5fee9.jpg": "/FoxCoverts/static/media/cubs-group.6be5fee9.jpg",
+    "static/media/cubs-marshmallow.3c17c125.jpg": "/FoxCoverts/static/media/cubs-marshmallow.3c17c125.jpg",
+    "static/media/example_Campsite.9c0947ea.jpg": "/FoxCoverts/static/media/example_Campsite.9c0947ea.jpg",
+    "static/media/explorer-expedition.599680ec.jpg": "/FoxCoverts/static/media/explorer-expedition.599680ec.jpg",
+    "static/media/explorer-expedition.8f23206c.jpg": "/FoxCoverts/static/media/explorer-expedition.8f23206c.jpg",
+    "static/media/explorers-on-rock.f392091e.jpg": "/FoxCoverts/static/media/explorers-on-rock.f392091e.jpg",
+    "static/media/group-of-scouts-in-helmets.87dabd96.jpg": "/FoxCoverts/static/media/group-of-scouts-in-helmets.87dabd96.jpg",
+    "static/media/group-of-scouts-in-helmets.b8e01e14.jpg": "/FoxCoverts/static/media/group-of-scouts-in-helmets.b8e01e14.jpg",
+    "static/media/kayaking.0732d4f5.jpg": "/FoxCoverts/static/media/kayaking.0732d4f5.jpg",
+    "static/media/kayaking.3ab1907f.jpg": "/FoxCoverts/static/media/kayaking.3ab1907f.jpg",
     "static/media/logo-v.890d11dc.svg": "/FoxCoverts/static/media/logo-v.890d11dc.svg",
-    "static/media/logo.f726279a.svg": "/FoxCoverts/static/media/logo.f726279a.svg"
+    "static/media/logo.f726279a.svg": "/FoxCoverts/static/media/logo.f726279a.svg",
+    "static/media/scouts-in-a-row.4acbd56b.jpg": "/FoxCoverts/static/media/scouts-in-a-row.4acbd56b.jpg",
+    "static/media/scouts-life-jackets.6b26011c.jpg": "/FoxCoverts/static/media/scouts-life-jackets.6b26011c.jpg",
+    "static/media/scouts-life-jackets.723ed354.jpg": "/FoxCoverts/static/media/scouts-life-jackets.723ed354.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cdce79ec.js",
     "static/css/2.674c27c3.chunk.css",
     "static/js/2.4a81791f.chunk.js",
-    "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.cf0a59ed.chunk.js"
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.5c5a2892.chunk.js"
   ]
 }
