@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/FoxCoverts/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/FoxCoverts/static/js/main.5c5a2892.chunk.js",
-    "main.js.map": "/FoxCoverts/static/js/main.5c5a2892.chunk.js.map",
+    "main.js": "/FoxCoverts/static/js/main.5a9d99e4.chunk.js",
+    "main.js.map": "/FoxCoverts/static/js/main.5a9d99e4.chunk.js.map",
     "runtime-main.js": "/FoxCoverts/static/js/runtime-main.cdce79ec.js",
     "runtime-main.js.map": "/FoxCoverts/static/js/runtime-main.cdce79ec.js.map",
     "static/css/2.674c27c3.chunk.css": "/FoxCoverts/static/css/2.674c27c3.chunk.css",
-    "static/js/2.4a81791f.chunk.js": "/FoxCoverts/static/js/2.4a81791f.chunk.js",
-    "static/js/2.4a81791f.chunk.js.map": "/FoxCoverts/static/js/2.4a81791f.chunk.js.map",
+    "static/js/2.cfc0ec38.chunk.js": "/FoxCoverts/static/js/2.cfc0ec38.chunk.js",
+    "static/js/2.cfc0ec38.chunk.js.map": "/FoxCoverts/static/js/2.cfc0ec38.chunk.js.map",
     "index.html": "/FoxCoverts/index.html",
     "static/css/2.674c27c3.chunk.css.map": "/FoxCoverts/static/css/2.674c27c3.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/FoxCoverts/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.4a81791f.chunk.js.LICENSE.txt": "/FoxCoverts/static/js/2.4a81791f.chunk.js.LICENSE.txt",
+    "static/js/2.cfc0ec38.chunk.js.LICENSE.txt": "/FoxCoverts/static/js/2.cfc0ec38.chunk.js.LICENSE.txt",
     "static/media/FDL_Blue.2aff2c4f.png": "/FoxCoverts/static/media/FDL_Blue.2aff2c4f.png",
     "static/media/FDL_Green.090a3be4.png": "/FoxCoverts/static/media/FDL_Green.090a3be4.png",
     "static/media/FDL_Purple.24541ba2.png": "/FoxCoverts/static/media/FDL_Purple.24541ba2.png",
@@ -44,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.cdce79ec.js",
     "static/css/2.674c27c3.chunk.css",
-    "static/js/2.4a81791f.chunk.js",
+    "static/js/2.cfc0ec38.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.5c5a2892.chunk.js"
+    "static/js/main.5a9d99e4.chunk.js"
   ]
 }
