@@ -57,7 +57,7 @@ const Image = styled.div`
 const Overlay = styled.div`
   height: 100%;
   width: 100%;
-  background: rgb(0 0 0 / 0.3);
+  background: rgb(0 0 0 / 0.33);
   position: absolute;
   top: 0;
   left: 0;
@@ -71,11 +71,13 @@ const Overlay = styled.div`
   span {
     text-transform: uppercase;
     font-weight: 100;
-    font-size: 2em;
+    font-size: 2.2em;
   }
 
   div {
     font-size: 6em;
+    line-height: 100px;
+    margin-top: 15px;
   }
 `;
 
