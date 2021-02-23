@@ -33,7 +33,7 @@ import FDL_Green from '../img/FDL_Green.png';
 import FDL_Purple from '../img/FDL_Purple.png';
 import FDL_Red from '../img/FDL_Red.png';
 
-
+import exampleCampsite from '../img/original/example_Campsite.jpg';
 
 export const ImagesDesktop = {
   'rkh': rkh,
@@ -57,6 +57,8 @@ export const ImagesDesktop = {
   'FDL_Green': FDL_Green,
   'FDL_Purple': FDL_Purple,
   'FDL_Red': FDL_Red,
+
+  'exampleCampsite': exampleCampsite,
 }
 
 
@@ -83,6 +85,8 @@ export const ImagesMobile = {
   'FDL_Green': FDL_Green,
   'FDL_Purple': FDL_Purple,
   'FDL_Red': FDL_Red,
+
+  'exampleCampsite': exampleCampsite,
 }
 
-export type imageLib = 'rkh' | 'bear' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'characters' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red';
+export type imageLib = 'rkh' | 'bear' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'characters' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'exampleCampsite';

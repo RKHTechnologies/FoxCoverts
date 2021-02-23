@@ -22,8 +22,8 @@ interface ColoursProps {
 }
 
 export const colours: ColoursProps = {
-    light: "#FFF",
-    dark: "#000",
+    light: "#FFFFFF",
+    dark: "#000000",
     primary: "#7414DC",
         
     Purple: "#7414DC",
