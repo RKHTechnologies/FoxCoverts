@@ -1,7 +1,10 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
+import About from '../Components/About';
+import CalendarLink from '../Components/CalendarLink';
 import Contact from '../Components/Contact';
 import HeroCarousel from '../Components/HeroCarousel';
+import WhereAreWe from '../Components/WhereAreWe';
 import Footer from '../Shared/Footer';
 import { PageBodyContainer, SharedSettings } from '../Shared/SharedStyles';
 
@@ -38,20 +41,18 @@ const Home: FC = () => {
 
       <Section id="About">
         <div className="wrapper">
-          About the campsite    
+          <About />
         </div>
       </Section>
 
       <Section id="Bookings">
         <div className="wrapper">
-          Bookings link    
+          <CalendarLink border="Purple" primary="Purple" secondary="Teal" hover="Purple" />
         </div>
       </Section>
 
-      <Section id="WhereWeAre">
-        <div className="wrapper">
-          Where we are    
-        </div>
+      <Section id="WhereWeAre" fullwidth>
+        <WhereAreWe />
       </Section>
 
       <Section id="Sections">

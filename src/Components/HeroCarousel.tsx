@@ -105,16 +105,16 @@ const Hero: FC<IProps> = ({small}: IProps) => {
             <Image imageUrl={mobile ? ImagesMobile["exampleCampsite"] : ImagesDesktop["exampleCampsite"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["scoutsHero"] : ImagesDesktop["scoutsHero"]} />
+            <Image imageUrl={mobile ? ImagesMobile["exampleCampsite"] : ImagesDesktop["exampleCampsite"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["highRopesHero"] : ImagesDesktop["highRopesHero"]} />
+            <Image imageUrl={mobile ? ImagesMobile["exampleCampsite"] : ImagesDesktop["exampleCampsite"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["expeditionHero"] : ImagesDesktop["expeditionHero"]} />
+            <Image imageUrl={mobile ? ImagesMobile["exampleCampsite"] : ImagesDesktop["exampleCampsite"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["kayakingHero"] : ImagesDesktop["kayakingHero"]} />
+            <Image imageUrl={mobile ? ImagesMobile["exampleCampsite"] : ImagesDesktop["exampleCampsite"]} />
           </Slide>
         </Slider>
 

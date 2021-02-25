@@ -73,7 +73,7 @@ const CalendarLink: FC<IProps> = ({ border, primary, secondary, hover }: IProps)
 
   return (
     <Link border={border} primary={primary} secondary={secondary} hover={hover} onClick={() => history.push(`${process.env.PUBLIC_URL}/ourCalendar`)}>
-      What's on?<span> Click to view Our Calendar</span><CalendarIcon primary={primary} />
+      Book Today!<span> Click to view Our Availability</span><CalendarIcon primary={primary} />
     </Link>
   );
 };
