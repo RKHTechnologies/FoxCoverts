@@ -2,6 +2,7 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 import Hero from '../Shared/Hero';
 import { colours, PageBodyContainer, SharedSettings } from '../Shared/SharedStyles';
+import { Section } from './Home';
 
 const TextOverlay = styled.div`
   font-size: 6vw;
@@ -26,11 +27,30 @@ const TextOverlay = styled.div`
   }  
 `;
 
+const Activity = styled.div`
+  width: 100%;
+  background: #b1b1b1;
+  height: 350px;
+  margin-top: 80px;
+`;
+
+const Image = styled.div`
+  width: 100%;
+`;
+
 const Activities: FC = () => {
   return (
     <PageBodyContainer>
       <Hero image="highRopesHero" small/>
       <TextOverlay>Activities</TextOverlay>
+
+      <Section id="Bookings">
+        <div className="wrapper">
+          <Activity>
+            <Image />
+          </Activity>      
+        </div>
+      </Section>
 
     </PageBodyContainer>
   );
