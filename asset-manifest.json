@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FoxCoverts/static/css/main.ee836ab7.chunk.css",
-    "main.js": "/FoxCoverts/static/js/main.e6160b81.chunk.js",
-    "main.js.map": "/FoxCoverts/static/js/main.e6160b81.chunk.js.map",
+    "main.css": "/FoxCoverts/static/css/main.c41d61e5.chunk.css",
+    "main.js": "/FoxCoverts/static/js/main.6be7c592.chunk.js",
+    "main.js.map": "/FoxCoverts/static/js/main.6be7c592.chunk.js.map",
     "runtime-main.js": "/FoxCoverts/static/js/runtime-main.cdce79ec.js",
     "runtime-main.js.map": "/FoxCoverts/static/js/runtime-main.cdce79ec.js.map",
     "static/css/2.674c27c3.chunk.css": "/FoxCoverts/static/css/2.674c27c3.chunk.css",
-    "static/js/2.4b5440e5.chunk.js": "/FoxCoverts/static/js/2.4b5440e5.chunk.js",
-    "static/js/2.4b5440e5.chunk.js.map": "/FoxCoverts/static/js/2.4b5440e5.chunk.js.map",
+    "static/js/2.fa94e15c.chunk.js": "/FoxCoverts/static/js/2.fa94e15c.chunk.js",
+    "static/js/2.fa94e15c.chunk.js.map": "/FoxCoverts/static/js/2.fa94e15c.chunk.js.map",
     "index.html": "/FoxCoverts/index.html",
     "static/css/2.674c27c3.chunk.css.map": "/FoxCoverts/static/css/2.674c27c3.chunk.css.map",
-    "static/css/main.ee836ab7.chunk.css.map": "/FoxCoverts/static/css/main.ee836ab7.chunk.css.map",
-    "static/js/2.4b5440e5.chunk.js.LICENSE.txt": "/FoxCoverts/static/js/2.4b5440e5.chunk.js.LICENSE.txt",
+    "static/css/main.c41d61e5.chunk.css.map": "/FoxCoverts/static/css/main.c41d61e5.chunk.css.map",
+    "static/js/2.fa94e15c.chunk.js.LICENSE.txt": "/FoxCoverts/static/js/2.fa94e15c.chunk.js.LICENSE.txt",
     "static/media/Calendar.80c1eb3a.svg": "/FoxCoverts/static/media/Calendar.80c1eb3a.svg",
     "static/media/FDL_Blue.2aff2c4f.png": "/FoxCoverts/static/media/FDL_Blue.2aff2c4f.png",
     "static/media/FDL_Green.090a3be4.png": "/FoxCoverts/static/media/FDL_Green.090a3be4.png",
@@ -23,6 +23,7 @@
     "static/media/beavers-and-leader.8c820548.jpg": "/FoxCoverts/static/media/beavers-and-leader.8c820548.jpg",
     "static/media/beavers-characters.b60608fc.png": "/FoxCoverts/static/media/beavers-characters.b60608fc.png",
     "static/media/beavers-singing.a91e0328.jpg": "/FoxCoverts/static/media/beavers-singing.a91e0328.jpg",
+    "static/media/campingSquare.f16e1cf3.jpg": "/FoxCoverts/static/media/campingSquare.f16e1cf3.jpg",
     "static/media/cub-high-ropes.5425b034.jpg": "/FoxCoverts/static/media/cub-high-ropes.5425b034.jpg",
     "static/media/cub-high-ropes.f37b9e25.jpg": "/FoxCoverts/static/media/cub-high-ropes.f37b9e25.jpg",
     "static/media/cubs-group.2d9500cd.jpg": "/FoxCoverts/static/media/cubs-group.2d9500cd.jpg",
@@ -36,17 +37,19 @@
     "static/media/group-of-scouts-in-helmets.b8e01e14.jpg": "/FoxCoverts/static/media/group-of-scouts-in-helmets.b8e01e14.jpg",
     "static/media/kayaking.0732d4f5.jpg": "/FoxCoverts/static/media/kayaking.0732d4f5.jpg",
     "static/media/kayaking.3ab1907f.jpg": "/FoxCoverts/static/media/kayaking.3ab1907f.jpg",
-    "static/media/logo-v.890d11dc.svg": "/FoxCoverts/static/media/logo-v.890d11dc.svg",
-    "static/media/logo.f726279a.svg": "/FoxCoverts/static/media/logo.f726279a.svg",
+    "static/media/logo-v.ecaec1c1.svg": "/FoxCoverts/static/media/logo-v.ecaec1c1.svg",
+    "static/media/logo.bdb7577e.svg": "/FoxCoverts/static/media/logo.bdb7577e.svg",
+    "static/media/ropeSkills.a769e086.jpg": "/FoxCoverts/static/media/ropeSkills.a769e086.jpg",
     "static/media/scouts-in-a-row.4acbd56b.jpg": "/FoxCoverts/static/media/scouts-in-a-row.4acbd56b.jpg",
     "static/media/scouts-life-jackets.6b26011c.jpg": "/FoxCoverts/static/media/scouts-life-jackets.6b26011c.jpg",
-    "static/media/scouts-life-jackets.723ed354.jpg": "/FoxCoverts/static/media/scouts-life-jackets.723ed354.jpg"
+    "static/media/scouts-life-jackets.723ed354.jpg": "/FoxCoverts/static/media/scouts-life-jackets.723ed354.jpg",
+    "static/media/scoutsShop.ab26657f.jpg": "/FoxCoverts/static/media/scoutsShop.ab26657f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cdce79ec.js",
     "static/css/2.674c27c3.chunk.css",
-    "static/js/2.4b5440e5.chunk.js",
-    "static/css/main.ee836ab7.chunk.css",
-    "static/js/main.e6160b81.chunk.js"
+    "static/js/2.fa94e15c.chunk.js",
+    "static/css/main.c41d61e5.chunk.css",
+    "static/js/main.6be7c592.chunk.js"
   ]
 }
