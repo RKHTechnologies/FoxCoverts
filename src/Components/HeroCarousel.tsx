@@ -72,12 +72,28 @@ const Overlay = styled.div`
     text-transform: uppercase;
     font-weight: 100;
     font-size: 2.2em;
+
+    @media(max-width: 1100px) {
+      font-size: 3vw;
+    }
+    @media(max-width: 500px) {
+      font-size: 5vw;
+    }
   }
 
   div {
     font-size: 6em;
     line-height: 100px;
     margin-top: 15px;
+
+    @media(max-width: 1100px) {
+      font-size: 8vw;
+    }
+    @media(max-width: 500px) {
+      font-size: 12vw;
+      line-height: 60px;
+      margin-top: 5px;
+    }
   }
 `;
 

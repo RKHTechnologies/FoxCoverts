@@ -1,7 +1,6 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 import { colours, SharedSettings } from '../Shared/SharedStyles';
-import Contact from './Contact';
 
 const Container = styled.div`
     font-weight: 400;
@@ -17,6 +16,7 @@ const Container = styled.div`
         grid-template-areas: 
             'text'
             'bookings'; 
+        margin-top: 0;
     }
 `;
 
@@ -42,6 +42,10 @@ const BookingsCard = styled.div`
         color: ${colours.Teal};
         font-size: 1.6em;
         font-weight: 800;
+    }
+
+    @media(max-width: ${SharedSettings.mobile}) { 
+        height: auto;
     }
 `;
 

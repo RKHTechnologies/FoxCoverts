@@ -13,8 +13,8 @@ const Container = styled.div`
   }
 
   @media(max-width: 1100px) {
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 10px; */
+    grid-template-columns: 1fr;
   }
 `;
 

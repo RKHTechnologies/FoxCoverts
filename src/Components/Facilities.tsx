@@ -7,6 +7,10 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px; 
+
+  @media(max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const Title = styled.h1`
@@ -15,6 +19,13 @@ const Title = styled.h1`
   color: ${colours.grey80};
   margin-bottom: 10px;
   grid-column-start: span 2;
+
+  @media(max-width: 900px) {
+    grid-column-start: 1;
+  }
+  @media(max-width: 500px) {
+    font-size: 15vw;
+  }
 `;
 
 
@@ -25,28 +36,35 @@ const Facility = styled.div`
   padding: 20px;
   display: grid;
   grid-template-columns: 250px 1fr;
-  grid-template-rows: 26px 1fr;
-  grid-template-areas: 
-    'image title'
-    'image about';
   grid-gap: 10px 20px;
 
-  span {
-    grid-area: title;
+  @media(max-width: 1200px) {
+    grid-template-columns: 200px 1fr;
+  }
+  @media(max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
+
+
+  h2 {
     font-size: 1.8em;
-    line-height: 26px;
+    margin: 0;
+    margin-bottom: 5px;
+    line-height: 32px;
+
+    @media(max-width: 500px) {
+      text-align: center;
+    }
   }
 `;
 
 const Image = styled.div`
-  width: 250px;
+  width: 100%;
   height: 180px;
   background: #d0d0d0;
-  grid-area: image;
 `;
 
 const About = styled.div`
-  grid-area: about;
   font-weight: 400;
 `;
 
@@ -58,34 +76,42 @@ const Facilities: FC = () => {
 
       <Facility>
         <Image />
-        <span>Tuck shop</span>
-        <About>
-          Our Tuck Shop sells a range of sweets, confectionery, crisps, soft drinks, badges and souvenirs (subject to availability).  Opening times are by arrangement with the Duty Warden.
-        </About>
+        <div>
+          <h2>Tuck shop</h2>
+          <About>
+            Our Tuck Shop sells a range of sweets, confectionery, crisps, soft drinks, badges and souvenirs (subject to availability).  Opening times are by arrangement with the Duty Warden.
+          </About>
+        </div>
       </Facility>
 
       <Facility>
         <Image />
-        <span>Campfire Circle</span>
-        <About>
-          Our Tuck Shop sells a range of sweets, confectionery, crisps, soft drinks, badges and souvenirs (subject to availability).  Opening times are by arrangement with the Duty Warden.
-        </About>
+        <div>
+          <h2>Campfire Circle</h2>
+          <About>
+            Our Tuck Shop sells a range of sweets, confectionery, crisps, soft drinks, badges and souvenirs (subject to availability).  Opening times are by arrangement with the Duty Warden.
+          </About>
+        </div>
       </Facility>
 
       <Facility>
         <Image />
-        <span>Shower &amp; Toilet Block</span>
-        <About>
-          Our Tuck Shop sells a range of sweets, confectionery, crisps, soft drinks, badges and souvenirs (subject to availability).  Opening times are by arrangement with the Duty Warden.
-        </About>
+        <div>
+          <h2>Shower &amp; Toilet Block</h2>
+          <About>
+            Our Tuck Shop sells a range of sweets, confectionery, crisps, soft drinks, badges and souvenirs (subject to availability).  Opening times are by arrangement with the Duty Warden.
+          </About>
+        </div>
       </Facility>
 
       <Facility>
         <Image />
-        <span>Chapel Area</span>
-        <About>
-          Our Tuck Shop sells a range of sweets, confectionery, crisps, soft drinks, badges and souvenirs (subject to availability).  Opening times are by arrangement with the Duty Warden.
-        </About>
+        <div>
+          <h2>Chapel Area</h2>
+          <About>
+            Our Tuck Shop sells a range of sweets, confectionery, crisps, soft drinks, badges and souvenirs (subject to availability).  Opening times are by arrangement with the Duty Warden.
+          </About>
+        </div>
       </Facility>
     </Container>
   );
