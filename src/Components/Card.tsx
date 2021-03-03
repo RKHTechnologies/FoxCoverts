@@ -53,14 +53,14 @@ const CardContainer = styled.div`
 `;
 
 const PrimaryText = styled.div`
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 600;
   color: ${colours.light};
   padding: 3px 0;
   z-index: 1;
   text-align: center;
   max-width: 80%;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 `;
 
 const SecondaryText = styled.div`

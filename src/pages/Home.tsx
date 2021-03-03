@@ -2,7 +2,9 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 import About from '../Components/About';
 import CalendarLink from '../Components/CalendarLink';
+import CardContainer from '../Components/CardContainer';
 import Contact from '../Components/Contact';
+import Facilities from '../Components/Facilities';
 import HeroCarousel from '../Components/HeroCarousel';
 import WhereAreWe from '../Components/WhereAreWe';
 import Footer from '../Shared/Footer';
@@ -51,23 +53,23 @@ const Home: FC = () => {
         </div>
       </Section>
 
-      <Section id="WhereWeAre" fullwidth>
-        <WhereAreWe />
-      </Section>
-
       <Section id="Sections">
         <div className="wrapper">
-          Sections links    
+          <CardContainer />
         </div>
+      </Section>
+
+      <Section id="WhereWeAre" fullwidth lastItem>
+        <WhereAreWe />
       </Section>
 
       <Section id="Facilities">
         <div className="wrapper">
-          Facilities    
+          <Facilities />
         </div>
       </Section>
 
-      <Section id="ContactUs" fullwidth lastItem>
+      <Section id="ContactUs" className="pt-0" fullwidth lastItem>
         <Contact />
       </Section>
 

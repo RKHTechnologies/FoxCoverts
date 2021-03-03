@@ -16,7 +16,7 @@ import expeditionHero from '../img/desktop/explorer-expedition.jpg';
 import beaversHero from '../img/beavers-and-leader.jpg';
 import cubsHero from '../img/cubs-group.jpg';
 import scoutsHero from '../img/scouts-life-jackets.jpg';
-  // Mobile
+// Mobile
 import highRopesHeroMobile from '../img/mobile/cub-high-ropes.jpg';
 import kayakingHeroMobile from '../img/mobile/kayaking.jpg';
 import expeditionHeroMobile from '../img/mobile/explorer-expedition.jpg';
@@ -33,7 +33,12 @@ import FDL_Green from '../img/FDL_Green.png';
 import FDL_Purple from '../img/FDL_Purple.png';
 import FDL_Red from '../img/FDL_Red.png';
 
+import ropeSkills from '../img/original/ropeSkills.jpg';
+
+// Not our images, need changing
 import exampleCampsite from '../img/original/example_Campsite.jpg';
+import scoutShop from '../img/original/scoutsShop.jpg';
+import campingSquare from '../img/original/campingSquare.jpg';
 
 export const ImagesDesktop = {
   'rkh': rkh,
@@ -58,7 +63,11 @@ export const ImagesDesktop = {
   'FDL_Purple': FDL_Purple,
   'FDL_Red': FDL_Red,
 
+  'ropeSkills': ropeSkills,
+
   'exampleCampsite': exampleCampsite,
+  'scoutShop': scoutShop,
+  'campingSquare': campingSquare,
 }
 
 
@@ -86,7 +95,11 @@ export const ImagesMobile = {
   'FDL_Purple': FDL_Purple,
   'FDL_Red': FDL_Red,
 
+  'ropeSkills': ropeSkills,
+
   'exampleCampsite': exampleCampsite,
+  'scoutShop': scoutShop,
+  'campingSquare': campingSquare,
 }
 
-export type imageLib = 'rkh' | 'bear' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'characters' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'exampleCampsite';
+export type imageLib = 'rkh' | 'bear' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'characters' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare';
