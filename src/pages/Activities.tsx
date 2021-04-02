@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { useHistory } from 'react-router-dom';
 import styled from 'styled-components';
 import Hero from '../Shared/Hero';
 import { colours, PageBodyContainer, SharedSettings } from '../Shared/SharedStyles';
@@ -73,6 +74,13 @@ const Button = styled.div`
 `;
 
 const Activities: FC = () => {
+
+  const history = useHistory();
+
+  const handleNav = (link: string): void => {
+      history.push(`${process.env.PUBLIC_URL}${link}`);
+  }
+
   return (
     <PageBodyContainer>
       <Hero image="highRopesHero" small/>
@@ -82,49 +90,49 @@ const Activities: FC = () => {
         <div className="wrapper">
           <ActivitiesContainer>
             
-            <Activity>
+            <Activity onClick={() => handleNav("/activities/low-rope-area")}>
               <Image />
               <Header>Low Rope Area</Header>
               <Button>Find out more</Button>
             </Activity>
 
-            <Activity>
+            <Activity onClick={() => handleNav("/activities/low-rope-area")}>
               <Image />
               <Header>Archery</Header>
               <Button>Find out more</Button>
             </Activity>
 
-            <Activity>
+            <Activity onClick={() => handleNav("/activities/low-rope-area")}>
               <Image />
               <Header>Climbing</Header>
               <Button>Find out more</Button>
             </Activity>
 
-            <Activity>
+            <Activity onClick={() => handleNav("/activities/low-rope-area")}>
               <Image />
               <Header>Air Rifles</Header>
               <Button>Find out more</Button>
             </Activity>
 
-            <Activity>
+            <Activity onClick={() => handleNav("/activities/low-rope-area")}>
               <Image />
               <Header>Pioneering</Header>
               <Button>Find out more</Button>
             </Activity>
 
-            <Activity>
+            <Activity onClick={() => handleNav("/activities/low-rope-area")}>
               <Image />
               <Header>Low Rope Area</Header>
               <Button>Find out more</Button>
             </Activity>
 
-            <Activity>
+            <Activity onClick={() => handleNav("/activities/low-rope-area")}>
               <Image />
               <Header>Boulders</Header>
               <Button>Find out more</Button>
             </Activity>
 
-            <Activity>
+            <Activity onClick={() => handleNav("/activities/low-rope-area")}>
               <Image />
               <Header>Frisbee Golf</Header>
               <Button>Find out more</Button>
