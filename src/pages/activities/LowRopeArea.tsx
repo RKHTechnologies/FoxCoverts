@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
+import Pill from '../../Components/Pill';
 import { imageLib, ImagesDesktop } from '../../Shared/ImageLib';
 import { PageBodyContainer, SharedSettings } from '../../Shared/SharedStyles';
 
@@ -19,7 +20,7 @@ const Left = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 42%;
   
   @media(max-width: ${SharedSettings.mobile}) {
     width: 100%;
@@ -28,7 +29,7 @@ const Left = styled.div`
 `;
 
 const Right = styled.div`
-  width: 50%;
+  width: 54%;
   position: relative;
 
   @media(max-width: ${SharedSettings.mobile}) {
@@ -38,9 +39,11 @@ const Right = styled.div`
 
 export const Title = styled.h1`
   width: 100%;
-  font-size: 3em;
+  font-size: 3.6em;
   margin: auto;
   margin-bottom: 15px;
+  font-weight: 600;  
+  line-height: 46px;
   
   @media(max-width: ${SharedSettings.mobile}) {
     margin: 0 0 20px;
@@ -53,6 +56,11 @@ export const Title = styled.h1`
     text-align: center;
     margin: 0 0 20px;
   }
+`;
+
+const Summary = styled.div`
+  font-weight: 400;
+  margin-bottom: 20px;
 `;
 
 const ImageContainer = styled.div`
@@ -91,6 +99,12 @@ const Image = styled.div`
   background-position: center;
 `;
 
+const PillGrid = styled.div`
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+`;
+
 const LowRopeArea: FC = () => {
 
   return (
@@ -109,7 +123,20 @@ const LowRopeArea: FC = () => {
 
         <Right>
           <Title>Low Rope Area</Title>
-
+          <Summary>
+            The Low Ropes course has cables and ropes strung between poles, 12 to 18 inches above the ground.  The low rope elements present tests of physical strength, stamina, agility, balance, and flexibility (Suitable for Scouts and Explorers).
+            <br /><br />
+            The Trim Trail offers an exciting physical and mental challenge for children of all ages and ability levels and allows for cognitive and imaginary play.  It develops co-ordination skills and provides exercise while having fun.
+            <br /><br />
+            The Spider's Web is a variety of ropes strung between poles, which resemble a spider's web. The group starts on one side of the web and must successfully reach the other side without touching any of the strands of the web.  Each gap can only be used once.  A spider placed on the web somewhere will watch over you.  If it falls, the group must start over. 
+          </Summary>
+          <PillGrid>
+            <Pill colour="Blue" />
+            <Pill colour="Red" />
+            <Pill colour="Purple" />
+            <Pill colour="Navy" />
+            <Pill colour="Teal" />
+          </PillGrid>
         </Right>
       </Container>
     </PageBodyContainer>
