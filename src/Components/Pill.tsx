@@ -7,9 +7,6 @@ interface IColourProps {
 } 
 
 const Container = styled.div`
-  width: 260px;
-  height: 40px;
-  background: ${(p: IColourProps) => colours[p.colour]}4c;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,9 +15,8 @@ const Container = styled.div`
 `;
 
 const Subject = styled.div`
-  background: ${(p: IColourProps) => colours[p.colour]}4c;
-  height: 40px;
-  width: 120px;
+  background: ${(p: IColourProps) => colours[p.colour]}99;
+  padding: 9px 14px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,19 +26,22 @@ const Value = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: calc(100% - 120px);
+  background: ${(p: IColourProps) => colours[p.colour]}4c;
+  padding: 9px 14px;
 `;
 
 
 interface IProps {
   colour: Colour;
+  subject: string;
+  value: string;
 }
 
-const Pill: FC<IProps> = ({colour}: IProps) => {
+const Pill: FC<IProps> = ({colour, subject, value}: IProps) => {
   return (
-    <Container colour={colour}>
-      <Subject colour={colour}>Suitable for</Subject>
-      <Value>All age groups</Value>
+    <Container>
+      <Subject colour={colour}>{subject}</Subject>
+      <Value colour={colour}>{value}</Value>
     </Container>
   );
 }

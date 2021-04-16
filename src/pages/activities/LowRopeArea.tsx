@@ -86,7 +86,7 @@ const MainImage = styled.div`
 
 const SecondaryImages = styled.div`
   width: 100%;
-  height: 100px;
+  height: 130px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
@@ -131,11 +131,10 @@ const LowRopeArea: FC = () => {
             The Spider's Web is a variety of ropes strung between poles, which resemble a spider's web. The group starts on one side of the web and must successfully reach the other side without touching any of the strands of the web.  Each gap can only be used once.  A spider placed on the web somewhere will watch over you.  If it falls, the group must start over. 
           </Summary>
           <PillGrid>
-            <Pill colour="Blue" />
-            <Pill colour="Red" />
-            <Pill colour="Purple" />
-            <Pill colour="Navy" />
-            <Pill colour="Teal" />
+            <Pill colour="Purple" subject="Suitable for" value="All age groups" />
+            <Pill colour="Teal" subject="Availability" value="April to October" />
+            <Pill colour="Red" subject="Session time" value="2 hours" />
+            <Pill colour="Blue" subject="Included" value="Low Ropes, Trim Trail and Spider's Web" />
           </PillGrid>
         </Right>
       </Container>
