@@ -15,11 +15,13 @@ const Container = styled.div`
 `;
 
 const Subject = styled.div`
-  background: ${(p: IColourProps) => colours[p.colour]}99;
+  background: ${(p: IColourProps) => colours[p.colour]};
+  color: ${colours.light};
   padding: 9px 14px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 600;
 `;
 
 const Value = styled.div`
@@ -28,6 +30,7 @@ const Value = styled.div`
   justify-content: center;
   background: ${(p: IColourProps) => colours[p.colour]}4c;
   padding: 9px 14px;
+  font-weight: 600;
 `;
 
 

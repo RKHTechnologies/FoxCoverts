@@ -1,8 +1,10 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 import Pill from '../../Components/Pill';
+import Document from '../../Components/Document';
 import { imageLib, ImagesDesktop } from '../../Shared/ImageLib';
 import { PageBodyContainer, SharedSettings } from '../../Shared/SharedStyles';
+import DocumentSmall from '../../Components/DocumentSmall';
 
 const Container = styled.div`
   width: 100vw;
@@ -105,6 +107,24 @@ const PillGrid = styled.div`
   flex-wrap: wrap;
 `;
 
+const CostGroup = styled.div`
+  h1 {
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  div {
+    font-weight: 400;
+  }
+`;
+
+const DocumentContainer = styled.div`
+  margin-top: 30px;
+  display: flex;
+
+`;
+
+
 const LowRopeArea: FC = () => {
 
   return (
@@ -132,10 +152,19 @@ const LowRopeArea: FC = () => {
           </Summary>
           <PillGrid>
             <Pill colour="Purple" subject="Suitable for" value="All age groups" />
-            <Pill colour="Teal" subject="Availability" value="April to October" />
+            <Pill colour="Green" subject="Availability" value="April to October" />
             <Pill colour="Red" subject="Session time" value="2 hours" />
             <Pill colour="Blue" subject="Included" value="Low Ropes, Trim Trail and Spider's Web" />
           </PillGrid>
+          <CostGroup>
+            <h1>Cost (per 2 hours):</h1>
+            <div>£20 Hinckley District Scouts</div>
+            <div>£25 Non-Hinckley District Scouts</div>
+            <div>£30 All other Groups</div>
+          </CostGroup>
+          <DocumentContainer>
+            <DocumentSmall name="Risk Assessments" filename="GiftAid.pdf" accent="Blue" />
+          </DocumentContainer>
         </Right>
       </Container>
     </PageBodyContainer>
