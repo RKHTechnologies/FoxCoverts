@@ -87,7 +87,7 @@ const Activities: FC = () => {
       <TextOverlay>Activities</TextOverlay>
 
       <Section id="Activities">
-        <div className="wrapper">
+        
           <ActivitiesContainer>
             
             <Activity onClick={() => handleNav("/activities/low-rope-area")}>
@@ -138,7 +138,7 @@ const Activities: FC = () => {
               <Button>Find out more</Button>
             </Activity>
           </ActivitiesContainer>
-        </div>
+
       </Section>
 
     

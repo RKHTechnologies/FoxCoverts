@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
+import ShopItem from '../Components/ShopItem';
 import { colours, PageBodyContainer } from '../Shared/SharedStyles';
 
 const ShopContainer = styled.div`
@@ -11,23 +12,14 @@ const ShopContainer = styled.div`
   background: #f1f1f1;
 `;
 
-const ShopItem = styled.div`
-  width: 200px;
-  height: 240px;
-  border-radius: 8px;
-  background: ${colours.light};
-  box-shadow: 3px 5px 9px #c3c3c3;
-`;
-
-
 
 const Shop: FC = () => {
   return (
     <PageBodyContainer>
       <ShopContainer>
-        <ShopItem>
-
-        </ShopItem>
+        <ShopItem name="Beaver Scouts Reflective Soft Shell Jacket - Kids" price="28" image="test" />
+        <ShopItem name="Stay Wild double wall insulated water bottle 500ml" price="15" image="test" />
+        <ShopItem name="Garden Games - Limbo" price="25" image="test" />
       </ShopContainer>
     </PageBodyContainer>
   );
