@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FoxCoverts/static/css/main.b9c91687.chunk.css",
-    "main.js": "/FoxCoverts/static/js/main.909eede2.chunk.js",
-    "main.js.map": "/FoxCoverts/static/js/main.909eede2.chunk.js.map",
+    "main.js": "/FoxCoverts/static/js/main.6f85eb2a.chunk.js",
+    "main.js.map": "/FoxCoverts/static/js/main.6f85eb2a.chunk.js.map",
     "runtime-main.js": "/FoxCoverts/static/js/runtime-main.cdce79ec.js",
     "runtime-main.js.map": "/FoxCoverts/static/js/runtime-main.cdce79ec.js.map",
     "static/css/2.674c27c3.chunk.css": "/FoxCoverts/static/css/2.674c27c3.chunk.css",
@@ -60,6 +60,6 @@
     "static/css/2.674c27c3.chunk.css",
     "static/js/2.770a40ff.chunk.js",
     "static/css/main.b9c91687.chunk.css",
-    "static/js/main.909eede2.chunk.js"
+    "static/js/main.6f85eb2a.chunk.js"
   ]
 }
