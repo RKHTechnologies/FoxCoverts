@@ -1,4 +1,4 @@
-import { FC, useEffect } from 'react';
+import { FC, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import ShopItem from '../Components/ShopItem';
 import { PageBodyContainer } from '../Shared/SharedStyles';
@@ -16,66 +16,47 @@ const ShopContainer = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
   background: #f1f1f1;
 `;
 
 const Shop: FC = () => {
-  const handleClick = () => {
-    createShopItem();
-  };
+  const [itemList, setItemList] = useState<Array<IPageItem>>();
+  
+  // Read
+  useEffect(() => {
+    const shopItems = firebase.database().ref("newItem");
+    shopItems.on("value", (snapshot: any) => {
+      const items = snapshot.val();
+      const listArray = [];
+      for (let id in items) {
+        listArray.push(items[id]);
+      }
+      setItemList(listArray);
+    });
+  }, []);
 
+  // Create
   const createShopItem = () => { 
     const ref = firebase.database().ref("newItem");
     const newItem = {
-      name: "Beaver new thing",
-      price: "25",
+      name: "New Shop Item",
+      price: "100",
       image: "test",
     }
   
     ref.push(newItem);
   };
 
-  // Read
-  useEffect(() => {
-    const shopItems = firebase.database().ref("newItem");
-    shopItems.on("value", (snapshot: any) => {
-      console.log(snapshot.val());
-      
-      for (const item in snapshot.val()) {
-        debugger;
-        console.log(item);
-        // pageItems.push(item);
-      }
-    });
-  }, []);
-
-  const shopPageItems = () => {
-    debugger;
-    console.log("page items:", pageItems);
-
-    // pageItems.forEach(item => console.log(item));
-
-    for (const testprop in pageItems) {
-      console.log("testprop:", testprop);
-    }
-
-
-  }
-
   return (
     <PageBodyContainer>
       <ShopContainer>
-        {pageItems.forEach(item => console.log("test"))}
-
-             {/* // <ShopItem name={item.name} price={item.price} image={item.image} />
-          
-          // console.log(`Name: ${item.name}, Price: ${item.price}, Image: ${item.image}`) */}
-        {/* <ShopItem name="Beaver Scouts Reflective Soft Shell Jacket - Kids" price="28" image="test" />
-        <ShopItem name="Stay Wild double wall insulated water bottle 500ml" price="15" image="test" />
-        <ShopItem name="Garden Games - Limbo" price="25" image="test" /> */}
-        <div onClick={shopPageItems}>test</div>
+        {itemList ? itemList.map((item) => (
+          <ShopItem name={item.name} price={item.price} image={item.image} />
+        )) : ""}
+        <div onClick={createShopItem}>test</div>
       </ShopContainer>
     </PageBodyContainer>
   );

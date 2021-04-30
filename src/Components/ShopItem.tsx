@@ -8,7 +8,7 @@ const Container = styled.div`
   border-radius: 8px;
   background: ${colours.light};
   box-shadow: 3px 5px 9px #c3c3c3;
-  margin-right: 30px;
+  margin: 20px 10px 20px 20px;
 `;
 
 const Image = styled.div`
