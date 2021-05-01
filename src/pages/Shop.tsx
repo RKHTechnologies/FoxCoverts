@@ -14,7 +14,6 @@ let pageItems: Array<IPageItem> = [];
 
 const ShopContainer = styled.div`
   width: 100%;
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -56,7 +55,7 @@ const Shop: FC = () => {
         {itemList ? itemList.map((item) => (
           <ShopItem name={item.name} price={item.price} image={item.image} />
         )) : ""}
-        <div onClick={createShopItem}>test</div>
+        <div onClick={createShopItem}>Add new item</div>
       </ShopContainer>
     </PageBodyContainer>
   );

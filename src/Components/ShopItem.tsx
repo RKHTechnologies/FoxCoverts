@@ -7,8 +7,14 @@ const Container = styled.div`
   height: 300px;
   border-radius: 8px;
   background: ${colours.light};
-  box-shadow: 3px 5px 9px #c3c3c3;
+  box-shadow: 2px 3px 9px #d8d5d5;
   margin: 20px 10px 20px 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 const Image = styled.div`
