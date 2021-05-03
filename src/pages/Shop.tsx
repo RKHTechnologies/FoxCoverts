@@ -3,14 +3,13 @@ import styled from 'styled-components';
 import ShopItem from '../Components/ShopItem';
 import { PageBodyContainer } from '../Shared/SharedStyles';
 import firebase from '../util/firebase';
+import { databaseRead } from '../util/functions';
 
 interface IPageItem {
   name: string;
   price: string;
   image: string;
 }
-
-let pageItems: Array<IPageItem> = [];
 
 const ShopContainer = styled.div`
   width: 100%;
@@ -36,6 +35,7 @@ const Shop: FC = () => {
       setItemList(listArray);
     });
   }, []);
+
 
   // Create
   const createShopItem = () => { 
