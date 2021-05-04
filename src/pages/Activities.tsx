@@ -36,7 +36,7 @@ const ActivitiesContainer = styled.div`
   justify-content: space-around;
   flex-wrap: wrap;
   background: #f1f1f1;
-
+  padding-bottom: 50px;
 `;
 
 const Activity = styled.div`
@@ -119,14 +119,14 @@ const Activities: FC = () => {
    const createNew = () => { 
     const ref = firebase.database().ref("activities");
     const newItem = {
-      link: "low-rope-area",
-      name: "Low Rope Area",
+      link: "parachute",
+      name: "Parachute",
       image: "test",
       summary: "The Low Ropes course has cables and ropes strung between poles, 12 to 18 inches above the ground. The low rope elements present tests of physical strength, stamina, agility, balance, and flexibility (Suitable for Scouts and Explorers).<br /><br />The Trim Trail offers an exciting physical and mental challenge for children of all ages and ability levels and allows for cognitive and imaginary play. It develops co-ordination skills and provides exercise while having fun.<br /><br />The Spider's Web is a variety of ropes strung between poles, which resemble a spider's web. The group starts on one side of the web and must successfully reach the other side without touching any of the strands of the web. Each gap can only be used once. A spider placed on the web somewhere will watch over you. If it falls, the group must start over.",
       pill1: "Suitable for|All age groups",
-      pill2: "Availability|April to October",
+      pill2: "Availability|March to December",
       pill3: "Session time|2 hours",
-      pill4: "Included|Low ropes, Trim Traiol and Spider's Web",
+      pill4: "Number of participants per hour|12",
       priceTitle: "Cost (per 2 hours)",
       pricingText: "£20 Hinckley District Scouts<br />£25 Non-Hinckley District Scouts<br />£30 All other Groups",
     }
@@ -140,54 +140,14 @@ const Activities: FC = () => {
       <TextOverlay onClick={createNew}>Activities</TextOverlay>
         
         <ActivitiesContainer>
-          
-          <Activity onClick={() => handleNav("/activities/low-rope-area")}>
-            <Image />
-            <Header>Low Rope Area</Header>
-            <Button>Find out more</Button>
-          </Activity>
+          {activitiesList ? activitiesList.map((item) => (
+            <Activity onClick={() => handleNav(`/activities/${item.link}`)}>
+              <Image />
+              <Header>{item.name}</Header>
+              <Button>Find out more</Button>
+            </Activity>
+          )) : ""}  
 
-          <Activity onClick={() => handleNav("/activities/low-rope-area")}>
-            <Image />
-            <Header>Archery</Header>
-            <Button>Find out more</Button>
-          </Activity>
-
-          <Activity onClick={() => handleNav("/activities/low-rope-area")}>
-            <Image />
-            <Header>Climbing</Header>
-            <Button>Find out more</Button>
-          </Activity>
-
-          <Activity onClick={() => handleNav("/activities/low-rope-area")}>
-            <Image />
-            <Header>Air Rifles</Header>
-            <Button>Find out more</Button>
-          </Activity>
-
-          <Activity onClick={() => handleNav("/activities/low-rope-area")}>
-            <Image />
-            <Header>Pioneering</Header>
-            <Button>Find out more</Button>
-          </Activity>
-
-          <Activity onClick={() => handleNav("/activities/low-rope-area")}>
-            <Image />
-            <Header>Low Rope Area</Header>
-            <Button>Find out more</Button>
-          </Activity>
-
-          <Activity onClick={() => handleNav("/activities/low-rope-area")}>
-            <Image />
-            <Header>Boulders</Header>
-            <Button>Find out more</Button>
-          </Activity>
-
-          <Activity onClick={() => handleNav("/activities/low-rope-area")}>
-            <Image />
-            <Header>Frisbee Golf</Header>
-            <Button>Find out more</Button>
-          </Activity>
         </ActivitiesContainer>
 
     </PageBodyContainer>
