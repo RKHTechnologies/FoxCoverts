@@ -5,6 +5,7 @@ import Document from '../../Components/Document';
 import { imageLib, ImagesDesktop } from '../../Shared/ImageLib';
 import { PageBodyContainer, SharedSettings } from '../../Shared/SharedStyles';
 import DocumentSmall from '../../Components/DocumentSmall';
+import { useParams } from 'react-router';
 
 const Container = styled.div`
   width: 100vw;
@@ -125,7 +126,10 @@ const DocumentContainer = styled.div`
 `;
 
 
-const LowRopeArea: FC = () => {
+const Activity: FC = () => {
+  let { route } = useParams<{ route: string }>();
+  
+  
 
   return (
     <PageBodyContainer>
@@ -142,7 +146,7 @@ const LowRopeArea: FC = () => {
         </Left>
 
         <Right>
-          <Title>Low Rope Area</Title>
+          <Title>{route}</Title>
           <Summary>
             The Low Ropes course has cables and ropes strung between poles, 12 to 18 inches above the ground.  The low rope elements present tests of physical strength, stamina, agility, balance, and flexibility (Suitable for Scouts and Explorers).
             <br /><br />
@@ -171,4 +175,4 @@ const LowRopeArea: FC = () => {
   );
 }
 
-export default LowRopeArea;
+export default Activity;

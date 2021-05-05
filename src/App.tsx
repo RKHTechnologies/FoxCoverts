@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import Accommodation from './pages/Accommodation';
 import Activities from './pages/Activities';
-import LowRopeArea from './pages/activities/LowRopeArea';
+import Activity from './pages/activities/Activity';
 import Bookings from './pages/Bookings';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
@@ -22,9 +22,8 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL}/bookings`} component={Bookings} />
           <Route exact path={`${process.env.PUBLIC_URL}/accommodation`} component={Accommodation} />
           <Route exact path={`${process.env.PUBLIC_URL}/activities`} component={Activities} />
+          <Route exact path={`${process.env.PUBLIC_URL}/activities/:route`} component={Activity} />
           <Route exact path={`${process.env.PUBLIC_URL}/shop`} component={Shop} />
-          
-          <Route exact path={`${process.env.PUBLIC_URL}/activities/low-rope-area`} component={LowRopeArea} />
           <Route component={Error404} />
         </Switch>
       </Router>
