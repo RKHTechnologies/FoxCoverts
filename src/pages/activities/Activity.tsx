@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Pill from '../../Components/Pill';
 import Document from '../../Components/Document';
@@ -6,6 +6,8 @@ import { imageLib, ImagesDesktop } from '../../Shared/ImageLib';
 import { PageBodyContainer, SharedSettings } from '../../Shared/SharedStyles';
 import DocumentSmall from '../../Components/DocumentSmall';
 import { useParams } from 'react-router';
+import { IActivityItem } from '../Activities';
+import firebase from 'firebase';
 
 const Container = styled.div`
   width: 100vw;
@@ -64,6 +66,7 @@ export const Title = styled.h1`
 const Summary = styled.div`
   font-weight: 400;
   margin-bottom: 20px;
+  white-space: pre-wrap;
 `;
 
 const ImageContainer = styled.div`
@@ -119,6 +122,10 @@ const CostGroup = styled.div`
   }
 `;
 
+const PricingText = styled.div`
+  white-space: pre-wrap;
+`;
+
 const DocumentContainer = styled.div`
   margin-top: 30px;
   display: flex;
@@ -127,9 +134,23 @@ const DocumentContainer = styled.div`
 
 
 const Activity: FC = () => {
+  const [activity, setActivity] = useState<IActivityItem>();
   let { route } = useParams<{ route: string }>();
   
-  
+  useEffect(() => {
+    const shopItems = firebase.database().ref("activities");
+    shopItems.on("value", (snapshot: any) => {
+      const items = snapshot.val();
+      for (let id in items) {
+        if (items[id].link === route) {
+          setActivity(items[id]);   
+        }
+      }
+    });
+  }, []);
+
+  console.log(route);
+  console.log(activity);
 
   return (
     <PageBodyContainer>
@@ -146,25 +167,17 @@ const Activity: FC = () => {
         </Left>
 
         <Right>
-          <Title>{route}</Title>
-          <Summary>
-            The Low Ropes course has cables and ropes strung between poles, 12 to 18 inches above the ground.  The low rope elements present tests of physical strength, stamina, agility, balance, and flexibility (Suitable for Scouts and Explorers).
-            <br /><br />
-            The Trim Trail offers an exciting physical and mental challenge for children of all ages and ability levels and allows for cognitive and imaginary play.  It develops co-ordination skills and provides exercise while having fun.
-            <br /><br />
-            The Spider's Web is a variety of ropes strung between poles, which resemble a spider's web. The group starts on one side of the web and must successfully reach the other side without touching any of the strands of the web.  Each gap can only be used once.  A spider placed on the web somewhere will watch over you.  If it falls, the group must start over. 
-          </Summary>
+          <Title>{activity?.name}</Title>
+          <Summary>{activity?.summary}</Summary>
           <PillGrid>
-            <Pill colour="Purple" subject="Suitable for" value="All age groups" />
-            <Pill colour="Green" subject="Availability" value="April to October" />
-            <Pill colour="Red" subject="Session time" value="2 hours" />
-            <Pill colour="Blue" subject="Included" value="Low Ropes, Trim Trail and Spider's Web" />
+            <Pill colour="Purple" subject={activity?.pill1.split("|")[0] ?? ""} value={activity?.pill1.split("|")[1] ?? ""} />
+            <Pill colour="Green" subject={activity?.pill2.split("|")[0] ?? ""} value={activity?.pill2.split("|")[1] ?? ""} />
+            <Pill colour="Red" subject={activity?.pill3.split("|")[0] ?? ""} value={activity?.pill3.split("|")[1] ?? ""} />
+            <Pill colour="Blue" subject={activity?.pill4.split("|")[0] ?? ""} value={activity?.pill4.split("|")[1] ?? ""} />
           </PillGrid>
           <CostGroup>
-            <h1>Cost (per 2 hours):</h1>
-            <div>£20 Hinckley District Scouts</div>
-            <div>£25 Non-Hinckley District Scouts</div>
-            <div>£30 All other Groups</div>
+            <h1>{activity?.priceTitle}</h1>
+            <PricingText>{activity?.pricingText}</PricingText>
           </CostGroup>
           <DocumentContainer>
             <DocumentSmall name="Risk Assessments" filename="GiftAid.pdf" accent="Blue" />

@@ -81,7 +81,7 @@ const Button = styled.div`
   }
 `;
 
-interface IActivityItem {
+export interface IActivityItem {
   link: string;
   name: string;
   image: string;
@@ -128,7 +128,7 @@ const Activities: FC = () => {
       pill3: "Session time|2 hours",
       pill4: "Number of participants per hour|12",
       priceTitle: "Cost (per 2 hours)",
-      pricingText: "£20 Hinckley District Scouts<br />£25 Non-Hinckley District Scouts<br />£30 All other Groups",
+      pricingText: "£20 Hinckley District Scouts\n£25 Non-Hinckley District Scouts\n£30 All other Groups",
     }
   
     ref.push(newItem);
