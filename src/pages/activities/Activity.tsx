@@ -6,7 +6,7 @@ import { imageLib, ImagesDesktop } from '../../Shared/ImageLib';
 import { PageBodyContainer, SharedSettings } from '../../Shared/SharedStyles';
 import DocumentSmall from '../../Components/DocumentSmall';
 import { useParams } from 'react-router';
-import { IActivityItem } from '../Activities';
+import { IActivityItem, IPillItem } from '../Activities';
 import firebase from 'firebase';
 
 const Container = styled.div`
@@ -133,6 +133,17 @@ const DocumentContainer = styled.div`
 `;
 
 
+const pillsList = (pills: { [name: string]: IPillItem }) => {
+  let listItems = [];
+  for (const pill in pills) {
+    listItems.push(pills[pill]);
+  }
+  return <>
+          {listItems.map((item, i) => <Pill colour={item.colour} subject={item.title} value={item.text} key={i} />)}
+        </>;
+}
+
+
 const Activity: FC = () => {
   const [activity, setActivity] = useState<IActivityItem>();
   let { route } = useParams<{ route: string }>();
@@ -170,10 +181,7 @@ const Activity: FC = () => {
           <Title>{activity?.name}</Title>
           <Summary>{activity?.summary}</Summary>
           <PillGrid>
-            <Pill colour="Purple" subject={activity?.pill1.split("|")[0] ?? ""} value={activity?.pill1.split("|")[1] ?? ""} />
-            <Pill colour="Green" subject={activity?.pill2.split("|")[0] ?? ""} value={activity?.pill2.split("|")[1] ?? ""} />
-            <Pill colour="Red" subject={activity?.pill3.split("|")[0] ?? ""} value={activity?.pill3.split("|")[1] ?? ""} />
-            <Pill colour="Blue" subject={activity?.pill4.split("|")[0] ?? ""} value={activity?.pill4.split("|")[1] ?? ""} />
+            {pillsList(activity?.pills ?? {})}
           </PillGrid>
           <CostGroup>
             <h1>{activity?.priceTitle}</h1>

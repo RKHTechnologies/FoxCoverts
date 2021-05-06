@@ -3,7 +3,7 @@ import React, { FC, useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import styled from 'styled-components';
 import Hero from '../Shared/Hero';
-import { colours, PageBodyContainer, SharedSettings } from '../Shared/SharedStyles';
+import { Colour, colours, PageBodyContainer, SharedSettings } from '../Shared/SharedStyles';
 import { databaseRead } from '../util/functions';
 import { Section } from './Home';
 
@@ -81,15 +81,18 @@ const Button = styled.div`
   }
 `;
 
+export interface IPillItem {
+  title: string;
+  text: string;
+  colour: Colour;
+}
+
 export interface IActivityItem {
   link: string;
   name: string;
   image: string;
   summary: string;
-  pill1: string;
-  pill2: string;
-  pill3: string;
-  pill4: string;
+  pills: { [name: string]: IPillItem };
   priceTitle: string;
   pricingText: string;
 }
@@ -122,11 +125,13 @@ const Activities: FC = () => {
       link: "parachute",
       name: "Parachute",
       image: "test",
-      summary: "The Low Ropes course has cables and ropes strung between poles, 12 to 18 inches above the ground. The low rope elements present tests of physical strength, stamina, agility, balance, and flexibility (Suitable for Scouts and Explorers).<br /><br />The Trim Trail offers an exciting physical and mental challenge for children of all ages and ability levels and allows for cognitive and imaginary play. It develops co-ordination skills and provides exercise while having fun.<br /><br />The Spider's Web is a variety of ropes strung between poles, which resemble a spider's web. The group starts on one side of the web and must successfully reach the other side without touching any of the strands of the web. Each gap can only be used once. A spider placed on the web somewhere will watch over you. If it falls, the group must start over.",
-      pill1: "Suitable for|All age groups",
-      pill2: "Availability|March to December",
-      pill3: "Session time|2 hours",
-      pill4: "Number of participants per hour|12",
+      summary: "The Low Ropes course has cables and ropes strung between poles, 12 to 18 inches above the ground. The low rope elements present tests of physical strength, stamina, agility, balance, and flexibility (Suitable for Scouts and Explorers).\n\nThe Trim Trail offers an exciting physical and mental challenge for children of all ages and ability levels and allows for cognitive and imaginary play. It develops co-ordination skills and provides exercise while having fun.\n\nThe Spider's Web is a variety of ropes strung between poles, which resemble a spider's web. The group starts on one side of the web and must successfully reach the other side without touching any of the strands of the web. Each gap can only be used once. A spider placed on the web somewhere will watch over you. If it falls, the group must start over.",
+      pills: {
+              pill1: {title: "Suitable for", text: "All age groups", colour: "Purple"},
+              pill2: {title: "Availability", text: "March to December", colour: "Green"},
+              pill3: {title: "Session Time", text: "March to December", colour: "Red"},
+              pill4: {title: "Included", text: "Low ropes, Trim Trail and Spider's Web", colour: "Blue"},
+            },
       priceTitle: "Cost (per 2 hours)",
       pricingText: "£20 Hinckley District Scouts\n£25 Non-Hinckley District Scouts\n£30 All other Groups",
     }
