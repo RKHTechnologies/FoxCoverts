@@ -87,6 +87,12 @@ export interface IPillItem {
   colour: Colour;
 }
 
+export interface IDocumentItem {
+  title: string;
+  colour: Colour;
+  link: string;
+}
+
 export interface IActivityItem {
   link: string;
   name: string;
@@ -95,6 +101,7 @@ export interface IActivityItem {
   pills: { [name: string]: IPillItem };
   priceTitle: string;
   pricingText: string;
+  documents: { [name: string]: IDocumentItem };
 }
 
 const Activities: FC = () => {
@@ -132,8 +139,12 @@ const Activities: FC = () => {
               pill3: {title: "Session Time", text: "March to December", colour: "Red"},
               pill4: {title: "Included", text: "Low ropes, Trim Trail and Spider's Web", colour: "Blue"},
             },
-      priceTitle: "Cost (per 2 hours)",
+      priceTitle: "Cost (per 2 hours):",
       pricingText: "£20 Hinckley District Scouts\n£25 Non-Hinckley District Scouts\n£30 All other Groups",
+      documents: {
+        doc1: {title: "Risk Assessments", colour: "Blue", link: "test.pdf"},
+        doc2: {title: "Activity Booking Form", colour: "Green", link: "test.pdf"},
+      }
     }
   
     ref.push(newItem);
@@ -142,7 +153,7 @@ const Activities: FC = () => {
   return (
     <PageBodyContainer>
       <Hero image="highRopesHero" small/>
-      <TextOverlay onClick={createNew}>Activities</TextOverlay>
+      <TextOverlay>Activities</TextOverlay>
         
         <ActivitiesContainer>
           {activitiesList ? activitiesList.map((item) => (
