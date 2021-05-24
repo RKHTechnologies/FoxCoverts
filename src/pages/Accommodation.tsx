@@ -1,18 +1,18 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
+import AccommodationItem from '../Components/AccommodationItem';
 import { PageBodyContainer } from '../Shared/SharedStyles';
 
 const AccommodationContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 40px;
-`;
-
-const AccommodationItem = styled.div`
-  width: 350px;
-  height: 700px;
-  background: #acacac;
+  /* margin: 30px 20px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  background: #F1F1F1;
+  width: 100%;
+  height: 100%;
+  padding: 30px 20px;
+  box-sizing: border-box;
 `;
 
 const Accommodation: FC = () => {
@@ -20,11 +20,11 @@ const Accommodation: FC = () => {
     <PageBodyContainer>
       <AccommodationContainer>
         
-        <AccommodationItem></AccommodationItem>
-        <AccommodationItem></AccommodationItem>
-        <AccommodationItem></AccommodationItem>
-        <AccommodationItem></AccommodationItem>
-        <AccommodationItem></AccommodationItem>
+        <AccommodationItem title="Hammocks"/>
+        <AccommodationItem title="Test"/>
+        <AccommodationItem title="George Wilson Building"/>
+        <AccommodationItem title="Hammocks"/>
+        <AccommodationItem title="Hammocks"/>
 
       </AccommodationContainer>
     </PageBodyContainer>
