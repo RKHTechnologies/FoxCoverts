@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
+import { Button } from '../pages/Activities';
 
 const Container = styled.div`
   width: 100%;
@@ -9,6 +10,12 @@ const Container = styled.div`
   padding: 10px;
   box-sizing: border-box;
   box-shadow: 1px 2px 3px 1px #19191914;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 const Image = styled.div`
@@ -22,23 +29,26 @@ const Image = styled.div`
 const Title = styled.div`
   font-weight: 600;
   font-size: 1.8em;
+  text-align: center;
 `;
 
 const Description = styled.div`
-
+  font-weight: 400;
 `;
 
 
 interface IProps {
   title: string;
+  description: string;
 }
 
-const AccommodationItem: FC<IProps> = ({ title }: IProps) => {
+const AccommodationItem: FC<IProps> = ({ title, description }: IProps) => {
   return (
     <Container>
       <Image />
       <Title>{title}</Title>
-      
+      <Description>{description}</Description>
+      <Button>Find out more</Button>
     </Container>
   );
 }

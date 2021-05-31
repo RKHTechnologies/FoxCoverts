@@ -69,7 +69,7 @@ const Header = styled.div`
   margin: 5px 0;
 `;
 
-const Button = styled.div`
+export const Button = styled.div`
   background: ${colours.Teal};
   color: ${colours.light};
   font-weight: 400;

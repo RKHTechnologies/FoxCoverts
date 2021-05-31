@@ -4,14 +4,13 @@ import AccommodationItem from '../Components/AccommodationItem';
 import { PageBodyContainer } from '../Shared/SharedStyles';
 
 const AccommodationContainer = styled.div`
-  /* margin: 30px 20px; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 25px;
   background: #F1F1F1;
   width: 100%;
   height: 100%;
-  padding: 30px 20px;
+  padding: 45px 20px;
   box-sizing: border-box;
 `;
 
@@ -20,11 +19,11 @@ const Accommodation: FC = () => {
     <PageBodyContainer>
       <AccommodationContainer>
         
-        <AccommodationItem title="Hammocks"/>
-        <AccommodationItem title="Test"/>
-        <AccommodationItem title="George Wilson Building"/>
-        <AccommodationItem title="Hammocks"/>
-        <AccommodationItem title="Hammocks"/>
+        <AccommodationItem title="Hammocks" description="test"/>
+        <AccommodationItem title="Test" description="test"/>
+        <AccommodationItem title="George Wilson Building" description="test"/>
+        <AccommodationItem title="Hammocks" description="test"/>
+        <AccommodationItem title="Hammocks" description="test"/>
 
       </AccommodationContainer>
     </PageBodyContainer>
