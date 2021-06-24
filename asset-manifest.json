@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FoxCoverts/static/css/main.b9c91687.chunk.css",
-    "main.js": "/FoxCoverts/static/js/main.62a3e9c8.chunk.js",
-    "main.js.map": "/FoxCoverts/static/js/main.62a3e9c8.chunk.js.map",
+    "main.js": "/FoxCoverts/static/js/main.7800ae79.chunk.js",
+    "main.js.map": "/FoxCoverts/static/js/main.7800ae79.chunk.js.map",
     "runtime-main.js": "/FoxCoverts/static/js/runtime-main.cdce79ec.js",
     "runtime-main.js.map": "/FoxCoverts/static/js/runtime-main.cdce79ec.js.map",
     "static/css/2.674c27c3.chunk.css": "/FoxCoverts/static/css/2.674c27c3.chunk.css",
@@ -31,7 +31,6 @@
     "static/media/bear.06e5a793.png": "/FoxCoverts/static/media/bear.06e5a793.png",
     "static/media/beavers-and-leader.86ed15f6.jpg": "/FoxCoverts/static/media/beavers-and-leader.86ed15f6.jpg",
     "static/media/beavers-and-leader.8c820548.jpg": "/FoxCoverts/static/media/beavers-and-leader.8c820548.jpg",
-    "static/media/beavers-characters.b60608fc.png": "/FoxCoverts/static/media/beavers-characters.b60608fc.png",
     "static/media/beavers-singing.a91e0328.jpg": "/FoxCoverts/static/media/beavers-singing.a91e0328.jpg",
     "static/media/campingSquare.f16e1cf3.jpg": "/FoxCoverts/static/media/campingSquare.f16e1cf3.jpg",
     "static/media/cub-high-ropes.5425b034.jpg": "/FoxCoverts/static/media/cub-high-ropes.5425b034.jpg",
@@ -60,6 +59,6 @@
     "static/css/2.674c27c3.chunk.css",
     "static/js/2.e526eb40.chunk.js",
     "static/css/main.b9c91687.chunk.css",
-    "static/js/main.62a3e9c8.chunk.js"
+    "static/js/main.7800ae79.chunk.js"
   ]
 }
