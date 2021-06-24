@@ -34,7 +34,7 @@ const BookingsCard = styled.div`
     height: 350px;
     background: #F6F6F6;
     border-radius: 5px;
-    padding: 30px;
+    padding: 18px 28px;
     box-sizing: border-box;
     font-weight: 400;
 
@@ -42,6 +42,7 @@ const BookingsCard = styled.div`
         color: ${colours.Teal};
         font-size: 1.6em;
         font-weight: 800;
+        margin-bottom: 4px;
     }
 
     @media(max-width: ${SharedSettings.mobile}) { 
@@ -49,6 +50,27 @@ const BookingsCard = styled.div`
     }
 `;
 
+const SecondaryButton = styled.button`
+    width: 100%;
+    margin-top: 14px;
+    background: transparent;
+    border: 2px solid ${colours.Teal};
+    color: ${colours.Teal};
+    height: 36px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1em;
+
+    &:hover {
+        background: ${colours.Teal};
+        color: #F6F6F6;
+        cursor: pointer;
+    }
+`;
+
+const handleClick = () => {
+    window.open("https://www.scouts.org.uk/coronavirus/", "_blank");
+}
 
 
 const About: FC = () => {
@@ -62,8 +84,9 @@ const About: FC = () => {
             We welcome bookings from Scout and Guide groups, schools, Duke of Edinburgh and other recognised youth groups.
         </Text>
         <BookingsCard>
-            <div>Information</div>
-            Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            <div>Coronavirus</div>
+            The Government has confirmed that the youth sector is an essential service and therefore Scouts are able to continue to meet in a COVID-safe way independent of social gathering restrictions where they follow Scouts guidance.
+            <SecondaryButton onClick={handleClick}>More Info</SecondaryButton>
         </BookingsCard>
   </Container>
   );

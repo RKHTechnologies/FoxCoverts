@@ -24,9 +24,6 @@ import beaversHeroMobile from '../img/mobile/beavers-and-leader.jpg';
 import cubsHeroMobile from '../img/mobile/cubs-group.jpg';
 import scoutsHeroMobile from '../img/mobile/scouts-life-jackets.jpg';
 
-// Beavers Characters
-import characters from '../img/desktop/beavers-characters.png';
-
 // Fluer De Lis
 import FDL_Blue from '../img/FDL_Blue.png';
 import FDL_Green from '../img/FDL_Green.png';
@@ -55,8 +52,6 @@ export const ImagesDesktop = {
   'beaversHero': beaversHero,
   'cubsHero': cubsHero,
   'scoutsHero': scoutsHero,
-
-  'characters': characters,
   
   'FDL_Blue': FDL_Blue,
   'FDL_Green': FDL_Green,
@@ -87,8 +82,6 @@ export const ImagesMobile = {
   'beaversHero': beaversHeroMobile,
   'cubsHero': cubsHeroMobile,
   'scoutsHero': scoutsHeroMobile,
-
-  'characters': characters,
   
   'FDL_Blue': FDL_Blue,
   'FDL_Green': FDL_Green,
@@ -102,4 +95,4 @@ export const ImagesMobile = {
   'campingSquare': campingSquare,
 }
 
-export type imageLib = 'rkh' | 'bear' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'characters' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare';
+export type imageLib = 'rkh' | 'bear' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare';
