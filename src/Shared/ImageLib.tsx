@@ -33,11 +33,11 @@ import ropeSkills from '../img/original/ropeSkills.jpg';
 
 
 //Fox Coverts Images
-import foxCoverts_1 from '../img/original/foxcoverts_1.jpg';
-import foxCoverts_2 from '../img/original/foxcoverts_2.jpg';
-import foxCoverts_3 from '../img/original/foxcoverts_3.jpg';
-import foxCoverts_4 from '../img/original/foxcoverts_4.jpg';
-import foxCoverts_5 from '../img/original/foxcoverts_5.jpg';
+import foxCoverts_1 from '../img/desktop/foxcoverts_1.jpg';
+import foxCoverts_2 from '../img/desktop/foxcoverts_2.jpg';
+import foxCoverts_3 from '../img/desktop/foxcoverts_3.jpg';
+import foxCoverts_4 from '../img/desktop/foxcoverts_4.jpg';
+import foxCoverts_5 from '../img/desktop/foxcoverts_5.jpg';
 
 
 // Not our images, need changing
@@ -113,5 +113,4 @@ export const ImagesMobile = {
   'fc5': foxCoverts_5,
 }
 
-// export type imageLib = 'rkh' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare' | 'fc1' | 'fc2' | 'fc3' | 'fc4' | 'fc5'; 
-export type imageLib = 'rkh' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare'; 
+export type imageLib = 'rkh' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare' | 'fc1' | 'fc2' | 'fc3' | 'fc4' | 'fc5'; 

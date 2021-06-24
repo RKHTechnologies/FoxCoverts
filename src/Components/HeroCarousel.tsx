@@ -57,7 +57,7 @@ const Image = styled.div`
 const Overlay = styled.div`
   height: 100%;
   width: 100%;
-  background: rgb(0 0 0 / 0.33);
+  background: rgb(0 0 0 / 0.2);
   position: absolute;
   top: 0;
   left: 0;
@@ -118,19 +118,19 @@ const Hero: FC<IProps> = ({small}: IProps) => {
         
         <Slider {...settings}>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["exampleCampsite"] : ImagesDesktop["exampleCampsite"]} />
+            <Image imageUrl={mobile ? ImagesMobile["fc5"] : ImagesDesktop["fc5"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["exampleCampsite"] : ImagesDesktop["exampleCampsite"]} />
+            <Image imageUrl={mobile ? ImagesMobile["fc1"] : ImagesDesktop["fc1"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["exampleCampsite"] : ImagesDesktop["exampleCampsite"]} />
+            <Image imageUrl={mobile ? ImagesMobile["fc2"] : ImagesDesktop["fc2"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["exampleCampsite"] : ImagesDesktop["exampleCampsite"]} />
+            <Image imageUrl={mobile ? ImagesMobile["fc3"] : ImagesDesktop["fc3"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["exampleCampsite"] : ImagesDesktop["exampleCampsite"]} />
+            <Image imageUrl={mobile ? ImagesMobile["fc4"] : ImagesDesktop["fc4"]} />
           </Slide>
         </Slider>
 
