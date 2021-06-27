@@ -34,6 +34,7 @@ const Title = styled.div`
 
 const Description = styled.div`
   font-weight: 400;
+  height: calc(100% - 330px);
 `;
 
 
