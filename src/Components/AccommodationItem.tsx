@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 import { Button } from '../pages/Activities';
+import PillAccommodation from './PillAccommodation';
 
 const Container = styled.div`
   width: 100%;
@@ -34,7 +35,13 @@ const Title = styled.div`
 
 const Description = styled.div`
   font-weight: 400;
-  height: calc(100% - 330px);
+  height: calc(100% - 526px);
+  overflow: hidden;
+`;
+
+const PillContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
 `;
 
 
@@ -49,7 +56,14 @@ const AccommodationItem: FC<IProps> = ({ title, description }: IProps) => {
       <Image />
       <Title>{title}</Title>
       <Description>{description}</Description>
-      <Button>Find out more</Button>
+      <PillContainer>
+        <PillAccommodation colour={"Purple"} subject={"Pitch Size"} value={"hello"}/>
+        <PillAccommodation colour={"Purple"} subject={"Tap Distance"} value={"hello"}/>
+        <PillAccommodation colour={"Purple"} subject={"WC Distance"} value={"hello"}/>
+        <PillAccommodation colour={"Purple"} subject={"Sleeps"} value={"hello"}/>
+      </PillContainer>
+      
+      <Button>Book Now</Button>
     </Container>
   );
 }
