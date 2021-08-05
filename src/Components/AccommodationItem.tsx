@@ -2,9 +2,12 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 import { Button } from '../pages/Activities';
 import PillAccommodation from './PillAccommodation';
+import { faBed, faExpandArrowsAlt, faFaucet, faRestroom } from '@fortawesome/free-solid-svg-icons';
+import { useHistory } from 'react-router-dom';
 
 const Container = styled.div`
-  width: 100%;
+  /* width: 100%; */
+  width: 360px;
   height: 700px;
   background: #fff;
   border-radius: 8px;
@@ -12,11 +15,13 @@ const Container = styled.div`
   box-sizing: border-box;
   box-shadow: 1px 2px 3px 1px #19191914;
   transition: all 0.3s ease;
-  cursor: pointer;
+  margin-right: 20px;
 
+  /* cursor: pointer; */
+/* 
   &:hover {
     transform: scale(1.1);
-  }
+  } */
 `;
 
 const Image = styled.div`
@@ -35,35 +40,44 @@ const Title = styled.div`
 
 const Description = styled.div`
   font-weight: 400;
-  height: calc(100% - 526px);
+  height: calc(100% - 440px);
   overflow: hidden;
+  overflow-y: auto;
+  margin-bottom: 10px;
 `;
 
 const PillContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding-bottom: 10px;
 `;
-
 
 interface IProps {
   title: string;
   description: string;
+  pitchSize: number;
+  tap: number;
+  wc: number;
+  sleeps: number;
 }
 
-const AccommodationItem: FC<IProps> = ({ title, description }: IProps) => {
+const AccommodationItem: FC<IProps> = ({ title, description, pitchSize, tap, wc, sleeps }: IProps) => {
+  const history = useHistory();
+
   return (
     <Container>
       <Image />
       <Title>{title}</Title>
       <Description>{description}</Description>
       <PillContainer>
-        <PillAccommodation colour={"Purple"} subject={"Pitch Size"} value={"hello"}/>
-        <PillAccommodation colour={"Purple"} subject={"Tap Distance"} value={"hello"}/>
-        <PillAccommodation colour={"Purple"} subject={"WC Distance"} value={"hello"}/>
-        <PillAccommodation colour={"Purple"} subject={"Sleeps"} value={"hello"}/>
+        <PillAccommodation colour={"Red"} subject={"Pitch Size"} value={`${pitchSize}m2`} icon={faExpandArrowsAlt} />
+        <PillAccommodation colour={"Blue"} subject={"Tap Distance"} value={`${tap}m`} icon={faFaucet} />
+        <PillAccommodation colour={"Purple"} subject={"WC Distance"} value={`${wc}m`} icon={faRestroom} />
+        <PillAccommodation colour={"Green"} subject={"Sleeps"} value={`${sleeps}`} icon={faBed} />
       </PillContainer>
       
-      <Button>Book Now</Button>
+      <Button onClick={() => history.push(`${process.env.PUBLIC_URL}/bookings`)}>Book Now</Button>
     </Container>
   );
 }

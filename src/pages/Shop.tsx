@@ -51,12 +51,13 @@ const Shop: FC = () => {
 
   return (
     <PageBodyContainer>
-      <ShopContainer>
+      New shop coming soon
+      {/* <ShopContainer>
         {itemList ? itemList.map((item) => (
           <ShopItem name={item.name} price={item.price} image={item.image} />
         )) : ""}
         <div onClick={createShopItem}>Add new item</div>
-      </ShopContainer>
+      </ShopContainer> */}
     </PageBodyContainer>
   );
 }

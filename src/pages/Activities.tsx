@@ -76,6 +76,8 @@ export const Button = styled.div`
   text-align: center;
   padding: 10px 0;
   border-radius: 4px;
+  cursor: pointer;
+  
   &:hover {
     background: ${colours.Teal}ad;
   }
