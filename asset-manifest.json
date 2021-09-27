@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/FoxCoverts/static/css/main.b9c91687.chunk.css",
-    "main.js": "/FoxCoverts/static/js/main.7800ae79.chunk.js",
-    "main.js.map": "/FoxCoverts/static/js/main.7800ae79.chunk.js.map",
+    "main.js": "/FoxCoverts/static/js/main.2137dea3.chunk.js",
+    "main.js.map": "/FoxCoverts/static/js/main.2137dea3.chunk.js.map",
     "runtime-main.js": "/FoxCoverts/static/js/runtime-main.cdce79ec.js",
     "runtime-main.js.map": "/FoxCoverts/static/js/runtime-main.cdce79ec.js.map",
     "static/css/2.674c27c3.chunk.css": "/FoxCoverts/static/css/2.674c27c3.chunk.css",
-    "static/js/2.e526eb40.chunk.js": "/FoxCoverts/static/js/2.e526eb40.chunk.js",
-    "static/js/2.e526eb40.chunk.js.map": "/FoxCoverts/static/js/2.e526eb40.chunk.js.map",
+    "static/js/2.51519ad5.chunk.js": "/FoxCoverts/static/js/2.51519ad5.chunk.js",
+    "static/js/2.51519ad5.chunk.js.map": "/FoxCoverts/static/js/2.51519ad5.chunk.js.map",
     "index.html": "/FoxCoverts/index.html",
     "static/css/2.674c27c3.chunk.css.map": "/FoxCoverts/static/css/2.674c27c3.chunk.css.map",
     "static/css/main.b9c91687.chunk.css.map": "/FoxCoverts/static/css/main.b9c91687.chunk.css.map",
-    "static/js/2.e526eb40.chunk.js.LICENSE.txt": "/FoxCoverts/static/js/2.e526eb40.chunk.js.LICENSE.txt",
+    "static/js/2.51519ad5.chunk.js.LICENSE.txt": "/FoxCoverts/static/js/2.51519ad5.chunk.js.LICENSE.txt",
     "static/media/ActivityInformationAndConsentForm.pdf": "/FoxCoverts/static/media/ActivityInformationAndConsentForm.b0c6854b.pdf",
     "static/media/BasicKitList.pdf": "/FoxCoverts/static/media/BasicKitList.e74286c7.pdf",
     "static/media/Calendar.80c1eb3a.svg": "/FoxCoverts/static/media/Calendar.80c1eb3a.svg",
@@ -28,7 +28,6 @@
     "static/media/ParentsGuidetoExplorers.pdf": "/FoxCoverts/static/media/ParentsGuidetoExplorers.98b3ac4b.pdf",
     "static/media/ParentsGuidetoScouts.pdf": "/FoxCoverts/static/media/ParentsGuidetoScouts.ab351e35.pdf",
     "static/media/RKHT_logo.3d014933.png": "/FoxCoverts/static/media/RKHT_logo.3d014933.png",
-    "static/media/bear.06e5a793.png": "/FoxCoverts/static/media/bear.06e5a793.png",
     "static/media/beavers-and-leader.86ed15f6.jpg": "/FoxCoverts/static/media/beavers-and-leader.86ed15f6.jpg",
     "static/media/beavers-and-leader.8c820548.jpg": "/FoxCoverts/static/media/beavers-and-leader.8c820548.jpg",
     "static/media/beavers-singing.a91e0328.jpg": "/FoxCoverts/static/media/beavers-singing.a91e0328.jpg",
@@ -42,6 +41,11 @@
     "static/media/explorer-expedition.599680ec.jpg": "/FoxCoverts/static/media/explorer-expedition.599680ec.jpg",
     "static/media/explorer-expedition.8f23206c.jpg": "/FoxCoverts/static/media/explorer-expedition.8f23206c.jpg",
     "static/media/explorers-on-rock.f392091e.jpg": "/FoxCoverts/static/media/explorers-on-rock.f392091e.jpg",
+    "static/media/foxcoverts_1.764155d2.jpg": "/FoxCoverts/static/media/foxcoverts_1.764155d2.jpg",
+    "static/media/foxcoverts_2.4521d0aa.jpg": "/FoxCoverts/static/media/foxcoverts_2.4521d0aa.jpg",
+    "static/media/foxcoverts_3.9e3b1746.jpg": "/FoxCoverts/static/media/foxcoverts_3.9e3b1746.jpg",
+    "static/media/foxcoverts_4.e573344e.jpg": "/FoxCoverts/static/media/foxcoverts_4.e573344e.jpg",
+    "static/media/foxcoverts_5.ee516e02.jpg": "/FoxCoverts/static/media/foxcoverts_5.ee516e02.jpg",
     "static/media/group-of-scouts-in-helmets.87dabd96.jpg": "/FoxCoverts/static/media/group-of-scouts-in-helmets.87dabd96.jpg",
     "static/media/group-of-scouts-in-helmets.b8e01e14.jpg": "/FoxCoverts/static/media/group-of-scouts-in-helmets.b8e01e14.jpg",
     "static/media/kayaking.0732d4f5.jpg": "/FoxCoverts/static/media/kayaking.0732d4f5.jpg",
@@ -57,8 +61,8 @@
   "entrypoints": [
     "static/js/runtime-main.cdce79ec.js",
     "static/css/2.674c27c3.chunk.css",
-    "static/js/2.e526eb40.chunk.js",
+    "static/js/2.51519ad5.chunk.js",
     "static/css/main.b9c91687.chunk.css",
-    "static/js/main.7800ae79.chunk.js"
+    "static/js/main.2137dea3.chunk.js"
   ]
 }
