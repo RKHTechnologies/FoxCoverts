@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FoxCoverts/static/css/main.b9c91687.chunk.css",
-    "main.js": "/FoxCoverts/static/js/main.2137dea3.chunk.js",
-    "main.js.map": "/FoxCoverts/static/js/main.2137dea3.chunk.js.map",
+    "main.js": "/FoxCoverts/static/js/main.23ce98ff.chunk.js",
+    "main.js.map": "/FoxCoverts/static/js/main.23ce98ff.chunk.js.map",
     "runtime-main.js": "/FoxCoverts/static/js/runtime-main.cdce79ec.js",
     "runtime-main.js.map": "/FoxCoverts/static/js/runtime-main.cdce79ec.js.map",
     "static/css/2.674c27c3.chunk.css": "/FoxCoverts/static/css/2.674c27c3.chunk.css",
@@ -28,18 +28,14 @@
     "static/media/ParentsGuidetoExplorers.pdf": "/FoxCoverts/static/media/ParentsGuidetoExplorers.98b3ac4b.pdf",
     "static/media/ParentsGuidetoScouts.pdf": "/FoxCoverts/static/media/ParentsGuidetoScouts.ab351e35.pdf",
     "static/media/RKHT_logo.3d014933.png": "/FoxCoverts/static/media/RKHT_logo.3d014933.png",
-    "static/media/beavers-and-leader.86ed15f6.jpg": "/FoxCoverts/static/media/beavers-and-leader.86ed15f6.jpg",
     "static/media/beavers-and-leader.8c820548.jpg": "/FoxCoverts/static/media/beavers-and-leader.8c820548.jpg",
     "static/media/beavers-singing.a91e0328.jpg": "/FoxCoverts/static/media/beavers-singing.a91e0328.jpg",
     "static/media/campingSquare.f16e1cf3.jpg": "/FoxCoverts/static/media/campingSquare.f16e1cf3.jpg",
-    "static/media/cub-high-ropes.5425b034.jpg": "/FoxCoverts/static/media/cub-high-ropes.5425b034.jpg",
-    "static/media/cub-high-ropes.f37b9e25.jpg": "/FoxCoverts/static/media/cub-high-ropes.f37b9e25.jpg",
-    "static/media/cubs-group.2d9500cd.jpg": "/FoxCoverts/static/media/cubs-group.2d9500cd.jpg",
+    "static/media/cub-high-ropes.7ae2107f.jpg": "/FoxCoverts/static/media/cub-high-ropes.7ae2107f.jpg",
     "static/media/cubs-group.6be5fee9.jpg": "/FoxCoverts/static/media/cubs-group.6be5fee9.jpg",
     "static/media/cubs-marshmallow.3c17c125.jpg": "/FoxCoverts/static/media/cubs-marshmallow.3c17c125.jpg",
     "static/media/example_Campsite.9c0947ea.jpg": "/FoxCoverts/static/media/example_Campsite.9c0947ea.jpg",
-    "static/media/explorer-expedition.599680ec.jpg": "/FoxCoverts/static/media/explorer-expedition.599680ec.jpg",
-    "static/media/explorer-expedition.8f23206c.jpg": "/FoxCoverts/static/media/explorer-expedition.8f23206c.jpg",
+    "static/media/explorer-expedition.9f6753c4.jpg": "/FoxCoverts/static/media/explorer-expedition.9f6753c4.jpg",
     "static/media/explorers-on-rock.f392091e.jpg": "/FoxCoverts/static/media/explorers-on-rock.f392091e.jpg",
     "static/media/foxcoverts_1.764155d2.jpg": "/FoxCoverts/static/media/foxcoverts_1.764155d2.jpg",
     "static/media/foxcoverts_2.4521d0aa.jpg": "/FoxCoverts/static/media/foxcoverts_2.4521d0aa.jpg",
@@ -47,14 +43,11 @@
     "static/media/foxcoverts_4.e573344e.jpg": "/FoxCoverts/static/media/foxcoverts_4.e573344e.jpg",
     "static/media/foxcoverts_5.ee516e02.jpg": "/FoxCoverts/static/media/foxcoverts_5.ee516e02.jpg",
     "static/media/group-of-scouts-in-helmets.87dabd96.jpg": "/FoxCoverts/static/media/group-of-scouts-in-helmets.87dabd96.jpg",
-    "static/media/group-of-scouts-in-helmets.b8e01e14.jpg": "/FoxCoverts/static/media/group-of-scouts-in-helmets.b8e01e14.jpg",
-    "static/media/kayaking.0732d4f5.jpg": "/FoxCoverts/static/media/kayaking.0732d4f5.jpg",
-    "static/media/kayaking.3ab1907f.jpg": "/FoxCoverts/static/media/kayaking.3ab1907f.jpg",
+    "static/media/kayaking.700c18a2.jpg": "/FoxCoverts/static/media/kayaking.700c18a2.jpg",
     "static/media/logo-v.ecaec1c1.svg": "/FoxCoverts/static/media/logo-v.ecaec1c1.svg",
     "static/media/logo.bdb7577e.svg": "/FoxCoverts/static/media/logo.bdb7577e.svg",
     "static/media/ropeSkills.a769e086.jpg": "/FoxCoverts/static/media/ropeSkills.a769e086.jpg",
     "static/media/scouts-in-a-row.4acbd56b.jpg": "/FoxCoverts/static/media/scouts-in-a-row.4acbd56b.jpg",
-    "static/media/scouts-life-jackets.6b26011c.jpg": "/FoxCoverts/static/media/scouts-life-jackets.6b26011c.jpg",
     "static/media/scouts-life-jackets.723ed354.jpg": "/FoxCoverts/static/media/scouts-life-jackets.723ed354.jpg",
     "static/media/scoutsShop.ab26657f.jpg": "/FoxCoverts/static/media/scoutsShop.ab26657f.jpg"
   },
@@ -63,6 +56,6 @@
     "static/css/2.674c27c3.chunk.css",
     "static/js/2.51519ad5.chunk.js",
     "static/css/main.b9c91687.chunk.css",
-    "static/js/main.2137dea3.chunk.js"
+    "static/js/main.23ce98ff.chunk.js"
   ]
 }
