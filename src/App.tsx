@@ -4,6 +4,7 @@ import Accommodation from './pages/Accommodation';
 import Activities from './pages/Activities';
 import Activity from './pages/activities/Activity';
 import Bookings from './pages/Bookings';
+import Campsites from './pages/Campsites';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
 import ScrollToTop from './ScrollToTop';
@@ -21,6 +22,7 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL}`} component={Home} />
           <Route exact path={`${process.env.PUBLIC_URL}/bookings`} component={Bookings} />
           <Route exact path={`${process.env.PUBLIC_URL}/accommodation`} component={Accommodation} />
+          <Route exact path={`${process.env.PUBLIC_URL}/campsites`} component={Campsites} />
           <Route exact path={`${process.env.PUBLIC_URL}/activities`} component={Activities} />
           <Route exact path={`${process.env.PUBLIC_URL}/activities/:route`} component={Activity} />
           <Route exact path={`${process.env.PUBLIC_URL}/shop`} component={Shop} />

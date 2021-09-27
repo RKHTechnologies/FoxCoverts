@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
-import { imageLib, ImagesDesktop, ImagesMobile } from './ImageLib';
+import { imageLib, ImagesDesktop } from './ImageLib';
 import { useMediaQuery } from 'react-responsive';
 
 interface HeroProps {
