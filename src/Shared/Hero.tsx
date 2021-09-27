@@ -36,7 +36,7 @@ const Hero: FC<IProps> = ({image, small, imageHeight}: IProps) => {
     const mobile = useMediaQuery({query: '(max-width: 700px)'});
     
     return (
-        <HeroBanner imageUrl={mobile ? ImagesMobile[image] : ImagesDesktop[image]} small={small} imageHeight={imageHeight} />
+        <HeroBanner imageUrl={ImagesDesktop[image]} small={small} imageHeight={imageHeight} />
     );
 }
 

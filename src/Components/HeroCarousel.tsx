@@ -1,6 +1,6 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import styled from 'styled-components';
-import { imageLib, ImagesDesktop, ImagesMobile } from '../Shared/ImageLib';
+import { ImagesDesktop } from '../Shared/ImageLib';
 import { useMediaQuery } from 'react-responsive';
 import Slider from 'infinite-react-carousel';
 import { colours } from '../Shared/SharedStyles';
@@ -118,19 +118,19 @@ const Hero: FC<IProps> = ({small}: IProps) => {
         
         <Slider {...settings}>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["fc5"] : ImagesDesktop["fc5"]} />
+            <Image imageUrl={ImagesDesktop["fc5"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["fc1"] : ImagesDesktop["fc1"]} />
+            <Image imageUrl={ImagesDesktop["fc1"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["fc2"] : ImagesDesktop["fc2"]} />
+            <Image imageUrl={ImagesDesktop["fc2"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["fc3"] : ImagesDesktop["fc3"]} />
+            <Image imageUrl={ImagesDesktop["fc3"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={mobile ? ImagesMobile["fc4"] : ImagesDesktop["fc4"]} />
+            <Image imageUrl={ImagesDesktop["fc4"]} />
           </Slide>
         </Slider>
 
