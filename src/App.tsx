@@ -23,7 +23,7 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL}/accommodation`} component={Accommodation} />
           <Route exact path={`${process.env.PUBLIC_URL}/activities`} component={Activities} />
           <Route exact path={`${process.env.PUBLIC_URL}/activities/:route`} component={Activity} />
-          {/* <Route exact path={`${process.env.PUBLIC_URL}/shop`} component={Shop} /> */}
+          <Route exact path={`${process.env.PUBLIC_URL}/shop`} component={Shop} />
           <Route component={Error404} />
         </Switch>
       </Router>

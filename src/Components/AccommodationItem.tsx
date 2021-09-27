@@ -65,6 +65,10 @@ interface IProps {
 const AccommodationItem: FC<IProps> = ({ title, description, pitchSize, tap, wc, sleeps }: IProps) => {
   const history = useHistory();
 
+  const handleBookings = (): void => {
+    window.open("https://www.onlinescoutmanager.co.uk/v/johns-lee-wood", "_blank");
+  }
+
   return (
     <Container>
       <Image />
@@ -77,7 +81,8 @@ const AccommodationItem: FC<IProps> = ({ title, description, pitchSize, tap, wc,
         <PillAccommodation colour={"Green"} subject={"Sleeps"} value={`${sleeps}`} icon={faBed} />
       </PillContainer>
       
-      <Button onClick={() => history.push(`${process.env.PUBLIC_URL}/bookings`)}>Book Now</Button>
+      {/* <Button onClick={() => history.push(`${process.env.PUBLIC_URL}/bookings`)}>Book Now</Button> */}
+      <Button onClick={handleBookings}>Book Now</Button>
     </Container>
   );
 }

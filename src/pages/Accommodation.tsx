@@ -44,7 +44,7 @@ const Accommodation: FC = () => {
         <AccommodationItem title="1st Britannia Campsite" pitchSize={300} tap={20} wc={18} sleeps={35} description="test"/>
       </Slider>
 
-      {/* <AccommodationContainer>
+      {/* <AccommodationContainer> 
         
         <AccommodationItem title="Hammock Village" pitchSize={200} tap={20} wc={15} sleeps={35} description="The village includes a 32 foot parachute covering a wood chip floor with a central fire. There is also a wooden tripod supporting it which doubles as a support to hang pans etc over the fire if needed. In addition to a small charge per night to use the facility, we also add an extra £1.25 per person to the camp fees to cover the hire of hammocks &amp; tarps for everyone staying there. We have 20 hammocks suitable for young people and 10 adult ones."/>
         <AccommodationItem title="The Bus Shelter" pitchSize={345} tap={50} wc={15} sleeps={35} description="The newly refurbished Bus Shelter has one large room which is ideal for use as an activity room, classroom, meeting venue or sleeping area.  It has a small kitchenette and is heated by electric wall heaters.  The price quoted is for building hire only and excludes campsite fees."/>

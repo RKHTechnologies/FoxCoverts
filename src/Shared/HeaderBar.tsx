@@ -183,6 +183,11 @@ const HeaderBar: React.FC<IProps> = ({ stickyHeader }: IProps) => {
         history.push(`${process.env.PUBLIC_URL}${link}`);
     }
 
+    const handleBookings = (): void => {
+        setMenuOpen(false);
+        window.open("https://www.onlinescoutmanager.co.uk/v/johns-lee-wood", "_blank");
+    }
+
     return (
         <HeaderNav stickyHeader={stickyHeader}>
             <HeaderNavContainer>
@@ -190,8 +195,7 @@ const HeaderBar: React.FC<IProps> = ({ stickyHeader }: IProps) => {
                 <BurgerContainer menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><Burger menuOpen={menuOpen} /></BurgerContainer>
                 <NavItemsRightContainer menuOpen={menuOpen}>
                     <HeaderButton onClick={() => handleNav("")}>Home</HeaderButton>
-                    {/* <HeaderButton onClick={() => handleNav("/about")}>About Us</HeaderButton> */}
-                    <HeaderButton onClick={() => handleNav("/bookings")}>Bookings</HeaderButton>
+                    <HeaderButton onClick={handleBookings}>Bookings</HeaderButton>
                     <HeaderButton onClick={() => handleNav("/accommodation")}>Accommodation</HeaderButton>
                     <HeaderButton onClick={() => handleNav("/activities")}>Activities</HeaderButton>
                     {/* <HeaderButton onClick={() => handleNav("/shop")}>Shop</HeaderButton> */}
