@@ -40,6 +40,16 @@ import foxCoverts_3 from '../img/foxcoverts_3.jpg';
 import foxCoverts_4 from '../img/foxcoverts_4.jpg';
 import foxCoverts_5 from '../img/foxcoverts_5.jpg';
 
+import hinckley_12 from '../img/12th_hinckley.jpg';
+import sapcote from '../img/sapcote.jpg';
+import stoke_golding from '../img/stoke_golding.jpg';
+import stoney_stanton from '../img/stoney_stanton.jpg';
+import earl_shilton from '../img/earl_shilton.jpg';
+import barwell from '../img/barwell.jpg';
+import hinckley_1 from '../img/1st_hinckley.jpg';
+import hinckley_2 from '../img/2nd_hinckley.jpg';
+import britannia from '../img/britannia.jpg';
+
 
 // Not our images, need changing
 import exampleCampsite from '../img/example_Campsite.jpg';
@@ -77,6 +87,16 @@ export const ImagesDesktop = {
   'fc3': foxCoverts_3,
   'fc4': foxCoverts_4,
   'fc5': foxCoverts_5,
+
+  '12th_hinckley': hinckley_12,
+  'sapcote': sapcote,
+  'stoke_golding': stoke_golding,
+  'stoney_stanton': stoney_stanton,
+  'earl_shilton': earl_shilton,
+  'barwell': barwell,
+  '1st_hinckley': hinckley_1,
+  '2nd_hinckley': hinckley_2,
+  'britannia': britannia,
 }
 
 
@@ -114,4 +134,4 @@ export const ImagesDesktop = {
 //   'fc5': foxCoverts_5,
 // }
 
-export type imageLib = 'rkh' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare' | 'fc1' | 'fc2' | 'fc3' | 'fc4' | 'fc5'; 
+export type imageLib = 'rkh' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare' | 'fc1' | 'fc2' | 'fc3' | 'fc4' | 'fc5' | '12th_hinckley' | 'sapcote' | 'stoke_golding' | 'stoney_stanton' | 'earl_shilton' | 'barwell' | '1st_hinckley' | '2nd_hinckley' | 'britannia'; 
