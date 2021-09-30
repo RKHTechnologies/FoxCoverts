@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/FoxCoverts/static/css/main.b9c91687.chunk.css",
-    "main.js": "/FoxCoverts/static/js/main.fc484280.chunk.js",
-    "main.js.map": "/FoxCoverts/static/js/main.fc484280.chunk.js.map",
+    "main.js": "/FoxCoverts/static/js/main.e3f46070.chunk.js",
+    "main.js.map": "/FoxCoverts/static/js/main.e3f46070.chunk.js.map",
     "runtime-main.js": "/FoxCoverts/static/js/runtime-main.cdce79ec.js",
     "runtime-main.js.map": "/FoxCoverts/static/js/runtime-main.cdce79ec.js.map",
     "static/css/2.674c27c3.chunk.css": "/FoxCoverts/static/css/2.674c27c3.chunk.css",
-    "static/js/2.c16036bc.chunk.js": "/FoxCoverts/static/js/2.c16036bc.chunk.js",
-    "static/js/2.c16036bc.chunk.js.map": "/FoxCoverts/static/js/2.c16036bc.chunk.js.map",
+    "static/js/2.f5f6b9ef.chunk.js": "/FoxCoverts/static/js/2.f5f6b9ef.chunk.js",
+    "static/js/2.f5f6b9ef.chunk.js.map": "/FoxCoverts/static/js/2.f5f6b9ef.chunk.js.map",
     "index.html": "/FoxCoverts/index.html",
     "static/css/2.674c27c3.chunk.css.map": "/FoxCoverts/static/css/2.674c27c3.chunk.css.map",
     "static/css/main.b9c91687.chunk.css.map": "/FoxCoverts/static/css/main.b9c91687.chunk.css.map",
-    "static/js/2.c16036bc.chunk.js.LICENSE.txt": "/FoxCoverts/static/js/2.c16036bc.chunk.js.LICENSE.txt",
+    "static/js/2.f5f6b9ef.chunk.js.LICENSE.txt": "/FoxCoverts/static/js/2.f5f6b9ef.chunk.js.LICENSE.txt",
+    "static/media/12th_hinckley.764155d2.jpg": "/FoxCoverts/static/media/12th_hinckley.764155d2.jpg",
+    "static/media/1st_hinckley.e27520aa.jpg": "/FoxCoverts/static/media/1st_hinckley.e27520aa.jpg",
+    "static/media/2nd_hinckley.c1d8ee14.jpg": "/FoxCoverts/static/media/2nd_hinckley.c1d8ee14.jpg",
     "static/media/ActivityInformationAndConsentForm.pdf": "/FoxCoverts/static/media/ActivityInformationAndConsentForm.b0c6854b.pdf",
     "static/media/BasicKitList.pdf": "/FoxCoverts/static/media/BasicKitList.e74286c7.pdf",
     "static/media/Calendar.80c1eb3a.svg": "/FoxCoverts/static/media/Calendar.80c1eb3a.svg",
@@ -28,12 +31,15 @@
     "static/media/ParentsGuidetoExplorers.pdf": "/FoxCoverts/static/media/ParentsGuidetoExplorers.98b3ac4b.pdf",
     "static/media/ParentsGuidetoScouts.pdf": "/FoxCoverts/static/media/ParentsGuidetoScouts.ab351e35.pdf",
     "static/media/RKHT_logo.3d014933.png": "/FoxCoverts/static/media/RKHT_logo.3d014933.png",
+    "static/media/barwell.ee516e02.jpg": "/FoxCoverts/static/media/barwell.ee516e02.jpg",
     "static/media/beavers-and-leader.8c820548.jpg": "/FoxCoverts/static/media/beavers-and-leader.8c820548.jpg",
     "static/media/beavers-singing.a91e0328.jpg": "/FoxCoverts/static/media/beavers-singing.a91e0328.jpg",
+    "static/media/britannia.9bff0290.jpg": "/FoxCoverts/static/media/britannia.9bff0290.jpg",
     "static/media/campingSquare.f16e1cf3.jpg": "/FoxCoverts/static/media/campingSquare.f16e1cf3.jpg",
     "static/media/cub-high-ropes.7ae2107f.jpg": "/FoxCoverts/static/media/cub-high-ropes.7ae2107f.jpg",
     "static/media/cubs-group.6be5fee9.jpg": "/FoxCoverts/static/media/cubs-group.6be5fee9.jpg",
     "static/media/cubs-marshmallow.3c17c125.jpg": "/FoxCoverts/static/media/cubs-marshmallow.3c17c125.jpg",
+    "static/media/earl_shilton.e573344e.jpg": "/FoxCoverts/static/media/earl_shilton.e573344e.jpg",
     "static/media/example_Campsite.9c0947ea.jpg": "/FoxCoverts/static/media/example_Campsite.9c0947ea.jpg",
     "static/media/explorer-expedition.9f6753c4.jpg": "/FoxCoverts/static/media/explorer-expedition.9f6753c4.jpg",
     "static/media/explorers-on-rock.f392091e.jpg": "/FoxCoverts/static/media/explorers-on-rock.f392091e.jpg",
@@ -47,15 +53,18 @@
     "static/media/logo-v.ecaec1c1.svg": "/FoxCoverts/static/media/logo-v.ecaec1c1.svg",
     "static/media/logo.bdb7577e.svg": "/FoxCoverts/static/media/logo.bdb7577e.svg",
     "static/media/ropeSkills.a769e086.jpg": "/FoxCoverts/static/media/ropeSkills.a769e086.jpg",
+    "static/media/sapcote.9e3b1746.jpg": "/FoxCoverts/static/media/sapcote.9e3b1746.jpg",
     "static/media/scouts-in-a-row.4acbd56b.jpg": "/FoxCoverts/static/media/scouts-in-a-row.4acbd56b.jpg",
     "static/media/scouts-life-jackets.723ed354.jpg": "/FoxCoverts/static/media/scouts-life-jackets.723ed354.jpg",
-    "static/media/scoutsShop.ab26657f.jpg": "/FoxCoverts/static/media/scoutsShop.ab26657f.jpg"
+    "static/media/scoutsShop.ab26657f.jpg": "/FoxCoverts/static/media/scoutsShop.ab26657f.jpg",
+    "static/media/stoke_golding.4521d0aa.jpg": "/FoxCoverts/static/media/stoke_golding.4521d0aa.jpg",
+    "static/media/stoney_stanton.33ae5a26.jpg": "/FoxCoverts/static/media/stoney_stanton.33ae5a26.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cdce79ec.js",
     "static/css/2.674c27c3.chunk.css",
-    "static/js/2.c16036bc.chunk.js",
+    "static/js/2.f5f6b9ef.chunk.js",
     "static/css/main.b9c91687.chunk.css",
-    "static/js/main.fc484280.chunk.js"
+    "static/js/main.e3f46070.chunk.js"
   ]
 }
