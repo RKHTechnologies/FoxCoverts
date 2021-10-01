@@ -6,7 +6,7 @@ import { faBed, faExpandArrowsAlt, faFaucet, faRestroom } from '@fortawesome/fre
 import { imageLib, ImagesDesktop } from '../Shared/ImageLib';
 import { SharedSettings } from '../Shared/SharedStyles';
 
-const Container = styled.div`
+export const Container = styled.div`
   width: 360px;
   height: 710px;
   background: #fff;
@@ -22,11 +22,11 @@ const Container = styled.div`
   }
 `;
 
-interface IImageProps {
+export interface IImageProps {
   image: imageLib;
 }
 
-const Image = styled.div`
+export const Image = styled.div`
   height: 240px;
   background: #e0e0e0;
   border-radius: 4px;
