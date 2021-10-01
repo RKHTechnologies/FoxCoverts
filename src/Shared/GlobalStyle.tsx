@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     ::-webkit-scrollbar-track {
-        background: #fff;
+        background: transparent;
     }
 
     ::-webkit-scrollbar-thumb {
