@@ -68,11 +68,18 @@ interface CalendarProps {
   primary: Colour;
 }
 
+
+
 const CalendarLink: FC<IProps> = ({ border, primary, secondary, hover }: IProps) => {
   const history = useHistory();
 
+  const handleClick = () => {
+    window.open("https://www.onlinescoutmanager.co.uk/v/johns-lee-wood", "_blank");
+    // history.push(`${process.env.PUBLIC_URL}/ourCalendar`);
+  }
+
   return (
-    <Link border={border} primary={primary} secondary={secondary} hover={hover} onClick={() => history.push(`${process.env.PUBLIC_URL}/ourCalendar`)}>
+    <Link border={border} primary={primary} secondary={secondary} hover={hover} onClick={handleClick}>
       Book Today!<span> Click to view Our Availability</span><CalendarIcon primary={primary} />
     </Link>
   );

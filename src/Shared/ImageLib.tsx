@@ -1,6 +1,5 @@
 import rkh from '../img/RKHT_logo.png';
 import groupImage from '../img/group-of-scouts-in-helmets.jpg';
-// import groupImageMobile from '../img/mobile/group-of-scouts-in-helmets.jpg';
 
 // Section images
 import beavers360 from '../img/beavers-singing.jpg';
@@ -55,6 +54,10 @@ import britannia from '../img/britannia.jpg';
 import exampleCampsite from '../img/example_Campsite.jpg';
 import scoutShop from '../img/scoutsShop.jpg';
 import campingSquare from '../img/campingSquare.jpg';
+import george_wilson from '../img/georgeWilson.jpg';
+import hammock_village from '../img/hammockVillage.jpg';
+import holiday_bus from '../img/holidayBus.jpg';
+
 
 export const ImagesDesktop = {
   'rkh': rkh,
@@ -97,6 +100,9 @@ export const ImagesDesktop = {
   '1st_hinckley': hinckley_1,
   '2nd_hinckley': hinckley_2,
   'britannia': britannia,
+  'george_wilson': george_wilson,
+  'hammock_village': hammock_village,
+  'holiday_bus': holiday_bus,
 }
 
 
@@ -134,4 +140,4 @@ export const ImagesDesktop = {
 //   'fc5': foxCoverts_5,
 // }
 
-export type imageLib = 'rkh' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare' | 'fc1' | 'fc2' | 'fc3' | 'fc4' | 'fc5' | '12th_hinckley' | 'sapcote' | 'stoke_golding' | 'stoney_stanton' | 'earl_shilton' | 'barwell' | '1st_hinckley' | '2nd_hinckley' | 'britannia'; 
+export type imageLib = 'rkh' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare' | 'fc1' | 'fc2' | 'fc3' | 'fc4' | 'fc5' | '12th_hinckley' | 'sapcote' | 'stoke_golding' | 'stoney_stanton' | 'earl_shilton' | 'barwell' | '1st_hinckley' | '2nd_hinckley' | 'britannia' | 'george_wilson' | 'hammock_village' | 'holiday_bus';  

@@ -4,17 +4,22 @@ import { Button } from '../pages/Activities';
 import PillAccommodation from './PillAccommodation';
 import { faBed, faExpandArrowsAlt, faFaucet, faRestroom } from '@fortawesome/free-solid-svg-icons';
 import { imageLib, ImagesDesktop } from '../Shared/ImageLib';
+import { SharedSettings } from '../Shared/SharedStyles';
 
 const Container = styled.div`
   width: 360px;
-  height: 700px;
+  height: 710px;
   background: #fff;
   border-radius: 8px;
   padding: 10px;
   box-sizing: border-box;
-  box-shadow: 1px 2px 3px 1px #19191914;
+  box-shadow: 1px 2px 3px 2px #19191921;
   transition: all 0.3s ease;
-  margin-right: 20px;
+  margin: 10px;
+
+  @media(max-width: 700px) {
+    margin: 0 0 20px;
+  }
 `;
 
 interface IImageProps {

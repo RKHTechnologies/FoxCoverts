@@ -118,10 +118,10 @@ const Hero: FC<IProps> = ({small}: IProps) => {
         
         <Slider {...settings}>
           <Slide>
-            <Image imageUrl={ImagesDesktop["fc5"]} />
+            <Image imageUrl={ImagesDesktop["fc1"]} />
           </Slide>
           <Slide>
-            <Image imageUrl={ImagesDesktop["fc1"]} />
+            <Image imageUrl={ImagesDesktop["fc5"]} />
           </Slide>
           <Slide>
             <Image imageUrl={ImagesDesktop["fc2"]} />
