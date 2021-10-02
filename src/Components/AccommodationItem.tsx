@@ -28,13 +28,13 @@ export interface IImageProps {
 
 export const Image = styled.div`
   height: 240px;
-  background: #e0e0e0;
   border-radius: 4px;
   box-sizing: border-box;
   margin-bottom: 10px;
   background: url(${(p: IImageProps) => ImagesDesktop[p.image]});
   background-size: cover;
   background-position: center;
+  background-color: #e0e0e0;
 `;
 
 const Title = styled.div`

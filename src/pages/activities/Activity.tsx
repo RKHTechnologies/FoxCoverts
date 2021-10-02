@@ -168,11 +168,11 @@ const Activity: FC = () => {
       <Container>
         <Left>
           <ImageContainer>
-            <MainImage image={'ropeSkills'} />
+            <MainImage image={activity?.images['image1'] ?? "ropeSkills"} />
             <SecondaryImages>
-              <Image image={'ropeSkills'} />
-              <Image image={'ropeSkills'} />
-              <Image image={'ropeSkills'} />
+              <Image image={activity?.images['image2'] ?? "ropeSkills"} />
+              <Image image={activity?.images['image3'] ?? "ropeSkills"} />
+              <Image image={activity?.images['image4'] ?? "ropeSkills"} />
             </SecondaryImages>
           </ImageContainer>
         </Left>

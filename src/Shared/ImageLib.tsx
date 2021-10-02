@@ -57,6 +57,10 @@ import campingSquare from '../img/campingSquare.jpg';
 import george_wilson from '../img/georgeWilson.jpg';
 import hammock_village from '../img/hammockVillage.jpg';
 import holiday_bus from '../img/holidayBus.jpg';
+import archery1 from '../img/archery1.jpg';
+import archery2 from '../img/archery2.jpg';
+import archery3 from '../img/archery3.jpg';
+import archery4 from '../img/archery4.jpg';
 
 
 export const ImagesDesktop = {
@@ -103,6 +107,11 @@ export const ImagesDesktop = {
   'george_wilson': george_wilson,
   'hammock_village': hammock_village,
   'holiday_bus': holiday_bus,
+
+  'archery1': archery1,
+  'archery2': archery2,
+  'archery3': archery3,
+  'archery4': archery4,
 }
 
 
@@ -140,4 +149,4 @@ export const ImagesDesktop = {
 //   'fc5': foxCoverts_5,
 // }
 
-export type imageLib = 'rkh' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare' | 'fc1' | 'fc2' | 'fc3' | 'fc4' | 'fc5' | '12th_hinckley' | 'sapcote' | 'stoke_golding' | 'stoney_stanton' | 'earl_shilton' | 'barwell' | '1st_hinckley' | '2nd_hinckley' | 'britannia' | 'george_wilson' | 'hammock_village' | 'holiday_bus';  
+export type imageLib = 'rkh' | 'groupImage' | 'beaversSection' | 'cubsSection' | 'scoutsSection' | 'explorersSection' | 'highRopesHero' | 'kayakingHero' | 'expeditionHero' | 'beaversHero' | 'cubsHero' | 'scoutsHero' | 'FDL_Blue' | 'FDL_Green' | 'FDL_Purple' | 'FDL_Red' | 'ropeSkills' | 'exampleCampsite' | 'scoutShop' | 'campingSquare' | 'fc1' | 'fc2' | 'fc3' | 'fc4' | 'fc5' | '12th_hinckley' | 'sapcote' | 'stoke_golding' | 'stoney_stanton' | 'earl_shilton' | 'barwell' | '1st_hinckley' | '2nd_hinckley' | 'britannia' | 'george_wilson' | 'hammock_village' | 'holiday_bus' | 'archery1' | 'archery2' | 'archery3' | 'archery4';  

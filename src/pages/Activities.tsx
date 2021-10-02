@@ -2,7 +2,9 @@ import firebase from 'firebase';
 import React, { FC, useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import styled from 'styled-components';
+import { IImageProps } from '../Components/AccommodationItem';
 import Hero from '../Shared/Hero';
+import { imageLib, ImagesDesktop } from '../Shared/ImageLib';
 import { Colour, colours, PageBodyContainer, SharedSettings } from '../Shared/SharedStyles';
 import { databaseRead } from '../util/functions';
 import { FlexContainer } from './Accommodation';
@@ -58,9 +60,12 @@ const Activity = styled.div`
 
 const Image = styled.div`
   width: 100%;
-  background: #e0e0e0;
   height: 250px;
   border-radius: 4px;
+  background: url(${(p: IImageProps) => ImagesDesktop[p.image]});
+  background-size: cover;
+  background-position: center;
+  background-color: #e0e0e0;
 `;
 
 const Header = styled.div`
@@ -100,6 +105,7 @@ export interface IActivityItem {
   link: string;
   name: string;
   image: string;
+  images: { [name: string]: imageLib};
   summary: string;
   pills: { [name: string]: IPillItem };
   priceTitle: string;
@@ -134,7 +140,12 @@ const Activities: FC = () => {
     const newItem = {
       link: "parachute",
       name: "Parachute",
-      image: "test",
+      images: {
+        image1: "parachute1",
+        image2: "parachute2",
+        image3: "parachute3",
+        image4: "parachute4",
+      },
       summary: "The Low Ropes course has cables and ropes strung between poles, 12 to 18 inches above the ground. The low rope elements present tests of physical strength, stamina, agility, balance, and flexibility (Suitable for Scouts and Explorers).\n\nThe Trim Trail offers an exciting physical and mental challenge for children of all ages and ability levels and allows for cognitive and imaginary play. It develops co-ordination skills and provides exercise while having fun.\n\nThe Spider's Web is a variety of ropes strung between poles, which resemble a spider's web. The group starts on one side of the web and must successfully reach the other side without touching any of the strands of the web. Each gap can only be used once. A spider placed on the web somewhere will watch over you. If it falls, the group must start over.",
       pills: {
               pill1: {title: "Suitable for", text: "All age groups", colour: "Purple"},
@@ -161,7 +172,7 @@ const Activities: FC = () => {
       <FlexContainer>
         {activitiesList ? activitiesList.map((item) => (
           <Activity onClick={() => handleNav(`/activities/${item.link}`)}>
-            <Image />
+            <Image image={item?.images['image1'] ?? "ropeSkills"}/>
             <Header>{item.name}</Header>
             <Button>Find out more</Button>
           </Activity>
