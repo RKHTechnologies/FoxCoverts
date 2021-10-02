@@ -13,10 +13,16 @@ const Container = styled.div`
   width: 100vw;
   height: calc(100vh - 100px);
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
   box-sizing: border-box;
   padding-top: 100px;
+  
+  @media(max-width: ${SharedSettings.mobile}) {
+    padding: 20px;
+  }
+
 `;
 
 const Left = styled.div`
@@ -76,6 +82,10 @@ const ImageContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 50px;
+
+  @media(max-width: ${SharedSettings.mobile}) {
+    width: 100%;
+  }
 `;
 
 interface ImageProps {
@@ -88,6 +98,10 @@ const MainImage = styled.div`
   background-position: center;
   width: 100%;
   height: 500px;
+
+  @media(max-width: 470px) {
+    height: 300px;
+  }
 `;
 
 const SecondaryImages = styled.div`
@@ -97,6 +111,10 @@ const SecondaryImages = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   margin-top: 20px;
+
+  @media(max-width: 470px) {
+    display: none;
+  }
 `;
 
 const Image = styled.div`
