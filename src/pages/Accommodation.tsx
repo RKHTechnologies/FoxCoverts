@@ -4,31 +4,29 @@ import AccommodationItem from '../Components/AccommodationItem';
 import { PageBodyContainer, SharedSettings } from '../Shared/SharedStyles';
 import Slider from 'infinite-react-carousel';
 
-export const PageContainer = styled(PageBodyContainer)`
-  background: #ebebeb;
-  padding: 40px 20px;
-  position: absolute;
-  top: 100px;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  overflow: auto;
+// export const PageContainer = styled(PageBodyContainer)`
   
-  @media(max-width: ${SharedSettings.mobile}) {
-    padding: 10px;
-  }
-`;
+//   padding: 20px 20px;
+//   position: absolute;
+//   top: 100px;
+//   right: 0;
+//   left: 0;
+//   bottom: 0;
+  
+//   @media(max-width: ${SharedSettings.mobile}) {
+//     padding: 10px;
+//   }
+// `;
 
 export const FlexContainer = styled.div`
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  background: #ebebeb;
+  padding: 20px 0 40px;
+  min-height: calc(100% - 60px);
 `;
-
-
 
 const settings =  {
   arrows: true,
@@ -41,7 +39,7 @@ const settings =  {
 
 const Accommodation: FC = () => {
   return (
-    <PageContainer>
+    <PageBodyContainer>
 
       <FlexContainer>
         <AccommodationItem title="Hammock Village" image={"hammock_village"} pitchSize={200} tap={20} wc={15} sleeps={35} description="The village includes a 32 foot parachute covering a wood chip floor with a central fire. There is also a wooden tripod supporting it which doubles as a support to hang pans etc over the fire if needed. In addition to a small charge per night to use the facility, we also add an extra £1.25 per person to the camp fees to cover the hire of hammocks &amp; tarps for everyone staying there. We have 20 hammocks suitable for young people and 10 adult ones."/>
@@ -69,7 +67,7 @@ const Accommodation: FC = () => {
         <AccommodationItem title="1st Britannia Campsite" pitchSize={300} tap={20} wc={18} sleeps={35} description="test"/>
         
       </AccommodationContainer> */}
-    </PageContainer>
+    </PageBodyContainer>
   );
 }
 

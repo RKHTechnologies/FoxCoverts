@@ -4,7 +4,7 @@ import AccommodationItem from '../Components/AccommodationItem';
 import { PageBodyContainer } from '../Shared/SharedStyles';
 import Slider from 'infinite-react-carousel';
 import CampsiteItem from '../Components/CampsiteItem';
-import { PageContainer, FlexContainer } from './Accommodation';
+import { FlexContainer } from './Accommodation';
 
 const settings =  {
   arrows: true,
@@ -17,7 +17,7 @@ const settings =  {
 
 const Campsites: FC = () => {
   return (
-    <PageContainer>
+    <PageBodyContainer>
 
       <FlexContainer>
         <CampsiteItem title="Sapcote" image={"sapcote"} pitchSize={"32m x 37m"} tap={51} wc={79} sleeps={0} description="Flag pole, Fire area, wood store near by"/>
@@ -47,7 +47,7 @@ const Campsites: FC = () => {
         <CampsiteItem title="11th Hinckley" image={"12th_hinckley"} pitchSize={"31m x 41m"} tap={34} wc={129} sleeps={0} description="Flag pole, Fire area, wood store near by"/>
         <CampsiteItem title="4th Hinckley" image={"12th_hinckley"} pitchSize={"36m x 30m"} tap={18} wc={165} sleeps={0} description="Fire area, Wood store near by"/>
       </Slider> */}
-    </PageContainer>
+    </PageBodyContainer>
   );
 }
 

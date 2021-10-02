@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import Hero from '../Shared/Hero';
 import { Colour, colours, PageBodyContainer, SharedSettings } from '../Shared/SharedStyles';
 import { databaseRead } from '../util/functions';
+import { FlexContainer } from './Accommodation';
 import { Section } from './Home';
 
 const TextOverlay = styled.div`
@@ -42,7 +43,7 @@ const ActivitiesContainer = styled.div`
 const Activity = styled.div`
   width: 400px;
   background: #FFFFFF;
-  margin-top: 50px;
+  margin: 20px;
   box-shadow: 1px 2px 3px 1px #19191914;
   padding: 10px;
   box-sizing: border-box;
@@ -157,16 +158,16 @@ const Activities: FC = () => {
       <Hero image="highRopesHero" small/>
       <TextOverlay>Activities</TextOverlay>
         
-        <ActivitiesContainer>
-          {activitiesList ? activitiesList.map((item) => (
-            <Activity onClick={() => handleNav(`/activities/${item.link}`)}>
-              <Image />
-              <Header>{item.name}</Header>
-              <Button>Find out more</Button>
-            </Activity>
-          )) : ""}  
+      <FlexContainer>
+        {activitiesList ? activitiesList.map((item) => (
+          <Activity onClick={() => handleNav(`/activities/${item.link}`)}>
+            <Image />
+            <Header>{item.name}</Header>
+            <Button>Find out more</Button>
+          </Activity>
+        )) : ""}  
 
-        </ActivitiesContainer>
+      </FlexContainer>
 
     </PageBodyContainer>
   );
