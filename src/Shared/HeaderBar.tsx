@@ -185,7 +185,7 @@ const HeaderBar: React.FC<IProps> = ({ stickyHeader }: IProps) => {
 
     const handleBookings = (): void => {
         setMenuOpen(false);
-        window.open("https://www.onlinescoutmanager.co.uk/v/johns-lee-wood", "_blank");
+        window.open("http://www.onlinescoutmanager.co.uk/v/fox-coverts-camp", "_blank");
     }
 
     return (
